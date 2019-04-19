@@ -1,0 +1,48 @@
+apply from: "$rootDir/dependencies.gradle"
+
+// 所有项目通用配置
+allprojects {
+    //引入 idea 插件
+    apply plugin: 'idea'
+
+    //指定项目版本号和group
+    version = '0.0.1'
+    group = 'com.plf.learn'
+
+    idea.module.iml {
+        beforeMerged { module ->
+            module.dependencies.clear()
+        }
+
+        whenMerged { module ->
+            module.dependencies*.exported = true
+        }
+    }
+}
+
+subprojects{
+    apply plugin: 'java'
+    apply plugin: 'war'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies{
+        compile libs.springboot
+    }
+   /* task "create-dirs" << {
+        sourceSets*.java.srcDirs*.each {
+            it.mkdirs()
+        }
+        sourcScts*.resources.srcDirs*.each{
+            it.midirs()
+        }
+    }*/
+
+    [compileJava,compileTestJava]*.options*.encoding = 'UTF-8'
+}
+

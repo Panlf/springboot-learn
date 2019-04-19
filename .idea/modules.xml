@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event.iml" group="springboot-learn-custom-event" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event_main.iml" group="springboot-learn-custom-event" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event_test.iml" group="springboot-learn-custom-event" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa.iml" group="springboot-learn-jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa_main.iml" group="springboot-learn-jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa_test.iml" group="springboot-learn-jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus.iml" group="springboot-learn-mybatis-plus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus/springboot-learn-mybatis-plus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus/springboot-learn-mybatis-plus_main.iml" group="springboot-learn-mybatis-plus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus/springboot-learn-mybatis-plus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus/springboot-learn-mybatis-plus_test.iml" group="springboot-learn-mybatis-plus" />
+    </modules>
+  </component>
+</project>

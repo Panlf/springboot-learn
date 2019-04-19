@@ -1,0 +1,20 @@
+ext{
+    versions = [
+            springBootVersion: '2.0.0.RELEASE'
+    ]
+    libs = [
+            springboot  :[
+                    "org.springframework.boot:spring-boot-starter-web:${versions.springBootVersion}",
+                    "org.springframework.boot:spring-boot-starter-test:${versions.springBootVersion}"
+            ],
+            lombok:[
+                    "org.projectlombok:lombok:1.16.20"
+            ],
+            mysql   :[
+                    "mysql:mysql-connector-java:5.1.29"
+            ],
+            jpa :[
+                    "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBootVersion}"
+            ]
+    ]
+}
