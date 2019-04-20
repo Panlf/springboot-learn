@@ -3,4 +3,5 @@ include 'springboot-learn-jpa'
 rootProject.name = 'springboot-learn'
 include 'springboot-learn-mybatis-plus'
 include 'springboot-learn-custom-event'
+include 'springboot-learn-mail'
 

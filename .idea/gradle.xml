@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/springboot-learn-custom-event" />
             <option value="$PROJECT_DIR$/springboot-learn-jpa" />
+            <option value="$PROJECT_DIR$/springboot-learn-mail" />
             <option value="$PROJECT_DIR$/springboot-learn-mybatis-plus" />
           </set>
         </option>

@@ -15,6 +15,9 @@ ext{
             ],
             jpa :[
                     "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBootVersion}"
+            ],
+            mail :[
+                    "org.springframework.boot:spring-boot-starter-mail:${versions.springBootVersion}"
             ]
     ]
 }
