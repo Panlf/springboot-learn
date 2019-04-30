@@ -18,6 +18,9 @@ ext{
             ],
             mail :[
                     "org.springframework.boot:spring-boot-starter-mail:${versions.springBootVersion}"
+            ],
+            mybatisplus:[
+                    "com.baomidou:mybatis-plus-boot-starter:3.0.2"
             ]
     ]
 }

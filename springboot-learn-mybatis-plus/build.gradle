@@ -1,3 +1,5 @@
 dependencies{
     compileOnly libs.lombok
+    compile libs.mysql
+    compile libs.mybatisplus
 }
