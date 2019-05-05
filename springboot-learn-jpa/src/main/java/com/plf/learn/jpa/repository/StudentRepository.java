@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.Query;
 
 
 public interface StudentRepository extends JpaRepository<Student,Integer>,JpaSpecificationExecutor<Student>{
-	@Query(value="select new com.learn.springbootjpa.dto.StudentDto(st.id,st.name,st.age,st.schoolId,sc.schoolName) from Student st left join School sc on sc.id=st.schoolId")
+	@Query(value="select new com.plf.learn.jpa.dto.StudentDto(st.id,st.name,st.age,st.schoolId,sc.schoolName) from Student st left join School sc on sc.id=st.schoolId")
 	public List<StudentDto> findStudentDto();
 	
 	

@@ -9,3 +9,8 @@
 ### 2、基于SpringBoot的发送邮件功能。
 
 使用SpringBoot的邮件功能，发送简单邮件、HTML邮件、带附件邮件、带图片邮件。
+
+### 3、SpringBoot整合MyBatis-Plus
+
+
+### 4、SpringBoot整合Spring-Data-Jpa
