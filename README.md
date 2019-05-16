@@ -12,5 +12,12 @@
 
 ### 3、SpringBoot整合MyBatis-Plus
 
+MyBatis-Plus功能比较强大，本案例使用注解式开发，但是过程中发现注解式不适合业务复杂的，比如动态条件多表联查，建议使用XML方式。
 
 ### 4、SpringBoot整合Spring-Data-Jpa
+
+Spring-Data-Jpa 功能完善，但是还是有缺陷，比如update不支持如果NULL则不更新，还有动态条件写起来比较复杂，个人感觉Jpa适合单表操作，很考验数据库设计水平。
+
+### 5、SpringBoot整合JWT
+
+Jwt用于信息访问授权功能，本案例使用Jwt生成授权token，访问特定方法进行token验证，并使用Redis存储敏感数据。
