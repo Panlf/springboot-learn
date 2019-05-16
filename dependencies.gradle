@@ -21,6 +21,12 @@ ext{
             ],
             mybatisplus:[
                     "com.baomidou:mybatis-plus-boot-starter:3.0.2"
+            ],
+            jwt:[
+                    "io.jsonwebtoken:jjwt:0.9.1"
+            ],
+            redis:[
+                    "org.springframework.boot:spring-boot-starter-data-redis:${versions.springBootVersion}"
             ]
     ]
 }
