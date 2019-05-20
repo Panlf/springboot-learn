@@ -5,4 +5,6 @@ include 'springboot-learn-mybatis-plus'
 include 'springboot-learn-custom-event'
 include 'springboot-learn-mail'
 include 'springboot-learn-jwt'
+include 'springboot-learn-distributed-lock'
+findProject(':springboot-learn-distributed-lock')?.name = 'springboot-learn-distributed-lock '
 

@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootMybatisPlusApplication {
+public class SpringBootMybatisPlusApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootMybatisPlusApplication.class, args);
+		SpringApplication.run(SpringBootMybatisPlusApplication.class, args);
 	}
 }

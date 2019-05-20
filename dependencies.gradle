@@ -27,6 +27,9 @@ ext{
             ],
             redis:[
                     "org.springframework.boot:spring-boot-starter-data-redis:${versions.springBootVersion}"
+            ],
+            redisson:[
+                    "org.redisson:redisson-spring-boot-starter:3.10.7"
             ]
     ]
 }

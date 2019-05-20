@@ -1,0 +1,6 @@
+dependencies{
+    compile libs.redis
+    compile libs.redisson
+    compileOnly libs.lombok
+
+}
