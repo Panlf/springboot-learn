@@ -1,15 +1,12 @@
 package com.plf.learn.lock.test;
 
-import com.plf.learn.lock.redis.RedisDistributionLock;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import javax.annotation.Resource;
-import java.util.UUID;
 
 /**
+ *  测试并发
  * @author Panlf
  * @date 2019/5/20
  */
@@ -28,9 +25,9 @@ public class BuyTest {
         Thread t3 = new Thread(tr, "C");
         Thread t4 = new Thread(tr, "D");
         t1.start();
-        t2.start();
-        t3.start();
-        t4.start();
+        //t2.start();
+        //t3.start();
+       // t4.start();
         try {
             Thread.currentThread().join();
         } catch (InterruptedException e) {
@@ -41,13 +38,11 @@ public class BuyTest {
     public class Buy implements  Runnable{
         @Override
         public void run() {
-
             while(true){
                 Integer num = restTemplate.getForObject(url,Integer.class);
                 if(num<=0){
                     break;
                 }
-
             }
         }
     }

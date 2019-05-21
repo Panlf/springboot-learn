@@ -1,6 +1,6 @@
 ext{
     versions = [
-            springBootVersion: '2.0.0.RELEASE'
+            springBootVersion: '2.1.4.RELEASE'
     ]
     libs = [
             springboot  :[

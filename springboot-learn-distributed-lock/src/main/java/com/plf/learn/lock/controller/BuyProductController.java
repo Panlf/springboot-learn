@@ -30,7 +30,8 @@ public class BuyProductController {
 
     @GetMapping("buyRedis")
     public Integer buyRedis() {
-        long currentTime = System.currentTimeMillis() + 1000l;
+        // 10s 有效时间
+        long currentTime = System.currentTimeMillis() + 10*1000L;
         boolean flag = redisDistributionLock.tryLock("lock", String.valueOf(currentTime));
         if (flag) {
             Integer num = Integer.valueOf(redisUtils.getStr("number"));

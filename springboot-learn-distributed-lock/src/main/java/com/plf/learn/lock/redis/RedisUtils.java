@@ -21,7 +21,7 @@ public class RedisUtils {
      * @param value 值
      * @param time 过期时间，单位秒
      */
-    public void insertStr(String key,String value,Integer time){
+    public void insertStr(String key,String value,long time){
         stringRedisTemplate.opsForValue().set(key,value,time, TimeUnit.SECONDS);
     }
 
@@ -41,6 +41,16 @@ public class RedisUtils {
      */
     public void insertIfAbsent(String key,String value){
         stringRedisTemplate.opsForValue().setIfAbsent(key,value);
+    }
+
+    /**
+     *  往Redis中存储字符串数据，存在则不插入,设置过期时间
+     * @param key
+     * @param value
+     * @param time 单位秒
+     */
+    public void insertIfAbsent(String key,String value,long time){
+       stringRedisTemplate.opsForValue().setIfAbsent(key,value,time,TimeUnit.SECONDS);
     }
 
 
