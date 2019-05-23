@@ -1,6 +1,7 @@
 dependencies{
     compile libs.redis
     compile libs.redisson
+    compile libs.curator
     compileOnly libs.lombok
 
 }

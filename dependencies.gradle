@@ -30,6 +30,9 @@ ext{
             ],
             redisson:[
                     "org.redisson:redisson-spring-boot-starter:3.10.7"
+            ],
+            curator:[
+                    "org.apache.curator:curator-recipes:3.2.1"
             ]
     ]
 }

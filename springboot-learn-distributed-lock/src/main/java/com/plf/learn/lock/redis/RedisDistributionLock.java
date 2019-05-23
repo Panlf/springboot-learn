@@ -39,11 +39,12 @@ public class RedisDistributionLock {
         /**
          *  这里根据方法说明是可以返回boolean的，但是根据测试，发现就算执行成功，也是返回NULL的，
          *  但是如果setIfAbsent不加过期时间则是可以返回boolean，目前问题还不清楚。
+         *  Boolean setIfAbsent(K key, V value, long timeout, TimeUnit unit) 莫名其妙不管是否执行成功只能返回null，
+         *  所以只能退而求次了
          *  建议Redis实现分布式锁使用Redisson方式
          */
-        stringRedisTemplate.opsForValue().setIfAbsent(key,value,LOCK_EXPIRE_TIME,TimeUnit.SECONDS);
-
-        if(stringRedisTemplate.hasKey(key)){
+        if(stringRedisTemplate.opsForValue().setIfAbsent(key,value)){
+            stringRedisTemplate.expire(key,LOCK_EXPIRE_TIME,TimeUnit.SECONDS);
             return true;
         }
 

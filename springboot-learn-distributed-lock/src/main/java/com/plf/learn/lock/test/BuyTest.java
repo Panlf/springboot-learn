@@ -15,7 +15,7 @@ public class BuyTest {
 
     private RestTemplate restTemplate = new RestTemplate();
 
-    private String url = "http://localhost:8004/lock/buyRedis";
+    private String url = "http://localhost:8004/lock/buyZookeeper";
 
     @Test
     public void ticketTest() {
@@ -25,9 +25,9 @@ public class BuyTest {
         Thread t3 = new Thread(tr, "C");
         Thread t4 = new Thread(tr, "D");
         t1.start();
-        //t2.start();
-        //t3.start();
-       // t4.start();
+        t2.start();
+        t3.start();
+        t4.start();
         try {
             Thread.currentThread().join();
         } catch (InterruptedException e) {
