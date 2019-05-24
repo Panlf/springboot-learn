@@ -33,6 +33,9 @@ ext{
             ],
             curator:[
                     "org.apache.curator:curator-recipes:3.2.1"
+            ],
+            jetcache:[
+                    "com.alicp.jetcache:jetcache-starter-redis:2.5.12"
             ]
     ]
 }

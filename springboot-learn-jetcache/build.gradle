@@ -1,0 +1,4 @@
+dependencies{
+    compile libs.jetcache
+    compileOnly libs.lombok
+}

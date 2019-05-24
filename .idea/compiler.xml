@@ -13,6 +13,8 @@
       <module name="springboot-learn-distributed-lock__test" target="1.8" />
       <module name="springboot-learn-distributed-lock_main" target="1.8" />
       <module name="springboot-learn-distributed-lock_test" target="1.8" />
+      <module name="springboot-learn-jetcache_main" target="1.8" />
+      <module name="springboot-learn-jetcache_test" target="1.8" />
       <module name="springboot-learn-jpa_main" target="1.8" />
       <module name="springboot-learn-jpa_test" target="1.8" />
       <module name="springboot-learn-jwt_main" target="1.8" />
