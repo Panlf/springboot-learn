@@ -14,14 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2620f058-9470-49f5-9648-5de56b35f1e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/resources/main/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-distributed-lock/build/resources/main/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/resources/main/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-jwt/build/resources/main/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-jwt/build/resources/main/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-mail/build/resources/main/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/resources/main/application.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependencies.gradle" afterPath="$PROJECT_DIR$/dependencies.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -101,7 +102,21 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="402">
+                <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,6 +134,17 @@
       <find>setIfAbsent</find>
       <find>listeners</find>
       <find>StandardListenerManager</find>
+      <find>ThreadPoolExecutor</find>
+      <find>Sync</find>
+      <find>Prority</find>
+      <find>Pr</find>
+      <find>Pro</find>
+      <find>newFixedThreadPool</find>
+      <find>newScheduledThreadPool</find>
+      <find>submit</find>
+      <find>execute</find>
+      <find>Queue</find>
+      <find>shutdown</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1459,14 +1485,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/bean/Student.java" />
-        <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/dto/StudentDto.java" />
         <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/service/StudentService.java" />
         <option value="$PROJECT_DIR$/springboot-learn-custom-event/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/repository/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/springboot-learn-jpa/src/test/java/com/plf/learn/jpa/test/ControllerRestTest.java" />
         <option value="$PROJECT_DIR$/springboot-learn-jpa/src/test/java/com/plf/learn/jpa/test/ControllerTest.java" />
         <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/SpringBootJpaApplication.java" />
         <option value="$PROJECT_DIR$/springboot-learn-jwt/src/main/java/com/plf/learn/jwt/SpringBootJwtApplication.java" />
@@ -1510,6 +1533,9 @@
         <option value="$PROJECT_DIR$/springboot-learn-jetcache/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-learn-jetcache/src/main/java/com/plf/learn/jetcache/bean/Person.java" />
         <option value="$PROJECT_DIR$/springboot-learn-jetcache/src/main/java/com/plf/learn/jetcache/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/springboot-learn-jpa/src/test/java/com/plf/learn/jpa/test/ControllerRestTest.java" />
+        <option value="$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1546,6 +1572,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -1559,9 +1586,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn-jetcache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn-jetcache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learn-jetcache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1569,7 +1657,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Panlf/IdeaProjects/springboot-learn/springboot-learn-mail/src/main/java/com/plf/learn/mail/service/MailService.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://D:/JDK/jdk/src.zip!/java/util/concurrent/Executors.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -2153,6 +2241,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2620f058-9470-49f5-9648-5de56b35f1e8" name="Default" comment="" />
@@ -2181,7 +2272,9 @@
       <workItem from="1558419167756" duration="5350000" />
       <workItem from="1558508722011" duration="6705000" />
       <workItem from="1558572910044" duration="3327000" />
-      <workItem from="1558660236956" duration="5264000" />
+      <workItem from="1558660236956" duration="5810000" />
+      <workItem from="1558920295717" duration="3736000" />
+      <workItem from="1558944879098" duration="294000" />
     </task>
     <servers />
   </component>
@@ -2218,7 +2311,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96850000" />
+    <option name="totallyTimeSpent" value="101426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2230,7 +2323,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2245,16 +2339,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903846" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.48487142" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34134614" sideWeight="0.49092284" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34134614" sideWeight="0.49092284" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836612" sideWeight="0.49043062" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28744328" sideWeight="0.49043062" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31164902" sideWeight="0.5095694" order="4" side_tool="true" content_ui="tabs" />
@@ -2265,6 +2358,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.48487142" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2323,79 +2417,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.5.RELEASE/96ba069b65ebeba16900244fb7501bf5c3779f5f/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-learn-jwt/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.5.RELEASE/96ba069b65ebeba16900244fb7501bf5c3779f5f/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultBoundValueOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-learn-jpa/src/test/java/com/plf/learn/jpa/test/ControllerRestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.5.RELEASE/96ba069b65ebeba16900244fb7501bf5c3779f5f/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="1271" column="33" lean-forward="false" selection-start-line="1271" selection-start-column="33" selection-end-line="1271" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.5.RELEASE/96ba069b65ebeba16900244fb7501bf5c3779f5f/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-learn-distributed-lock/src/test/java/com/plf/learn/lock/test/ControllerRestTest.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-learn-distributed-lock/src/main/java/com/plf/learn/lock/test/ControllerTest.java" />
-    <entry file="jar://D:/JDK/jdk/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-learn-distributed-lock/src/main/java/com/plf/learn/lock/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-learn-distributed-lock/src/main/java/com/plf/learn/lock/SpringBootLockApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="e#301#302#0" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2467,7 +2492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2475,7 +2499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2504,7 +2527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2554,7 +2576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2569,16 +2590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -2600,9 +2611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="88" column="45" lean-forward="false" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2610,7 +2618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2618,7 +2625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2626,7 +2632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2634,7 +2639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2642,11 +2646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2654,7 +2653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2662,13 +2660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2676,7 +2667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2684,9 +2674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2694,11 +2681,191 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-learn-jpa/src/test/java/com/plf/learn/jpa/test/ControllerRestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3625">
+          <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.34.Final/d771bab067a3b634d1d5ee86b55be0da14a4463b/netty-transport-4.1.34.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="133" column="45" lean-forward="true" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#5045#5046#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="139" column="4" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-learn-jpa/src/main/java/com/plf/learn/jpa/Test.java" />
+    <entry file="jar://D:/JDK/jdk/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7025">
+          <caret line="318" column="31" lean-forward="false" selection-start-line="318" selection-start-column="13" selection-end-line="318" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#80896#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#16480#16481#0" expanded="false" />
+            <element signature="e#16508#16509#0" expanded="false" />
+            <element signature="e#16568#16569#0" expanded="false" />
+            <element signature="e#16597#16598#0" expanded="false" />
+            <element signature="e#16644#16645#0" expanded="false" />
+            <element signature="e#16679#16680#0" expanded="false" />
+            <element signature="e#16824#16825#0" expanded="false" />
+            <element signature="e#16884#16885#0" expanded="false" />
+            <element signature="e#17029#17030#0" expanded="false" />
+            <element signature="e#17089#17090#0" expanded="false" />
+            <element signature="e#17336#17337#0" expanded="false" />
+            <element signature="e#17409#17410#0" expanded="false" />
+            <element signature="e#25063#25064#0" expanded="false" />
+            <element signature="e#25102#25103#0" expanded="false" />
+            <element signature="e#25293#25294#0" expanded="false" />
+            <element signature="e#25339#25340#0" expanded="false" />
+            <element signature="e#31948#31949#0" expanded="false" />
+            <element signature="e#32004#32005#0" expanded="false" />
+            <element signature="e#57238#57239#0" expanded="false" />
+            <element signature="e#57283#57284#0" expanded="false" />
+            <element signature="e#57976#57977#0" expanded="false" />
+            <element signature="e#58037#58038#0" expanded="false" />
+            <element signature="e#58750#58751#0" expanded="false" />
+            <element signature="e#58776#58777#0" expanded="false" />
+            <element signature="e#59415#59416#0" expanded="false" />
+            <element signature="e#59451#59452#0" expanded="false" />
+            <element signature="e#60105#60106#0" expanded="false" />
+            <element signature="e#60135#60136#0" expanded="false" />
+            <element signature="e#61630#61631#0" expanded="false" />
+            <element signature="e#61665#61666#0" expanded="false" />
+            <element signature="e#63465#63466#0" expanded="false" />
+            <element signature="e#63510#63511#0" expanded="false" />
+            <element signature="e#65777#65778#0" expanded="false" />
+            <element signature="e#65815#65816#0" expanded="false" />
+            <element signature="e#67446#67447#0" expanded="false" />
+            <element signature="e#67518#67519#0" expanded="false" />
+            <element signature="e#67915#67916#0" expanded="false" />
+            <element signature="e#67947#67948#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10298#0" expanded="false" />
+            <element signature="e#2940#2941#0" expanded="false" />
+            <element signature="e#2990#2991#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/org.redisson/redisson/3.10.7/6c73d10569f9ffe713498efed2f0d7c035ee9056/redisson-3.10.7-sources.jar!/org/redisson/client/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9625">
+          <caret line="428" column="4" lean-forward="false" selection-start-line="428" selection-start-column="4" selection-end-line="431" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#47363#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6406#6407#0" expanded="false" />
+            <element signature="e#6446#6447#0" expanded="false" />
+            <element signature="e#8316#8317#0" expanded="false" />
+            <element signature="e#8386#8387#0" expanded="false" />
+            <element signature="e#9317#9318#0" expanded="false" />
+            <element signature="e#9359#9360#0" expanded="false" />
+            <element signature="e#18041#18042#0" expanded="false" />
+            <element signature="e#18114#18115#0" expanded="false" />
+            <element signature="e#23406#23407#0" expanded="false" />
+            <element signature="e#23455#23456#0" expanded="false" />
+            <element signature="e#23678#23679#0" expanded="false" />
+            <element signature="e#23731#23732#0" expanded="false" />
+            <element signature="e#24181#24182#0" expanded="false" />
+            <element signature="e#24234#24235#0" expanded="false" />
+            <element signature="e#27292#27293#0" expanded="false" />
+            <element signature="e#27330#27331#0" expanded="false" />
+            <element signature="e#27737#27738#0" expanded="false" />
+            <element signature="e#27774#27775#0" expanded="false" />
+            <element signature="e#28617#28618#0" expanded="false" />
+            <element signature="e#28649#28650#0" expanded="false" />
+            <element signature="e#29685#29686#0" expanded="false" />
+            <element signature="e#29727#29728#0" expanded="false" />
+            <element signature="e#30242#30243#0" expanded="false" />
+            <element signature="e#30281#30282#0" expanded="false" />
+            <element signature="e#37330#37331#0" expanded="false" />
+            <element signature="e#37372#37373#0" expanded="false" />
+            <element signature="e#37414#37415#0" expanded="false" />
+            <element signature="e#37462#37463#0" expanded="false" />
+            <element signature="e#38584#38585#0" expanded="false" />
+            <element signature="e#38616#38617#0" expanded="false" />
+            <element signature="e#38658#38659#0" expanded="false" />
+            <element signature="e#38697#38698#0" expanded="false" />
+            <element signature="e#38770#38771#0" expanded="false" />
+            <element signature="e#38809#38810#0" expanded="false" />
+            <element signature="e#46265#46266#0" expanded="false" />
+            <element signature="e#46331#46332#0" expanded="false" />
+            <element signature="e#46737#46738#0" expanded="false" />
+            <element signature="e#46787#46788#0" expanded="false" />
+            <element signature="e#46827#46828#0" expanded="false" />
+            <element signature="e#46887#46888#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3025">
+          <caret line="155" column="9" lean-forward="false" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#14929#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="675" column="9" lean-forward="true" selection-start-line="675" selection-start-column="9" selection-end-line="675" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="402">
+            <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

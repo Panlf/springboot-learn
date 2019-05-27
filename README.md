@@ -21,3 +21,11 @@ Spring-Data-Jpa 功能完善，但是还是有缺陷，比如update不支持如�
 ### 5、SpringBoot整合JWT
 
 Jwt用于信息访问授权功能，本案例使用Jwt生成授权token，访问特定方法进行token验证，并使用Redis存储敏感数据。
+
+### 6、SpringBoot整合分布式锁
+
+基于Redis、Redisson、Zookeeper的分布式锁。
+
+### 7、SpringBoot整合JetCache
+
+简单实现基于JetCache的数据缓存。
