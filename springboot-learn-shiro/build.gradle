@@ -1,0 +1,5 @@
+dependencies{
+    compileOnly libs.lombok
+    compile libs.shiro
+    compile libs.thymeleaf
+}

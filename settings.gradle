@@ -6,4 +6,5 @@ include 'springboot-learn-mail'
 include 'springboot-learn-jwt'
 include 'springboot-learn-distributed-lock'
 include 'springboot-learn-jetcache'
+include 'springboot-learn-shiro'
 
