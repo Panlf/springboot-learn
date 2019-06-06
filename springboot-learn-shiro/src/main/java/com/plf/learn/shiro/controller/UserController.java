@@ -1,6 +1,7 @@
 package com.plf.learn.shiro.controller;
 
 import com.plf.learn.shiro.service.AdminActionService;
+import com.plf.learn.shiro.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;

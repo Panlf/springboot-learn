@@ -20,7 +20,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.1.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.29" level="project" />
+    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.16" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-boot-starter:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.0.1.RELEASE" level="project" />
@@ -49,6 +49,7 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.6.1" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-configuration-processor:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.1.4.RELEASE" level="project" />

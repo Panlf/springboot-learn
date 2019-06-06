@@ -19,7 +19,6 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.1.4.RELEASE" />
-          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.29" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.1.4.RELEASE" />
@@ -95,6 +94,8 @@
           <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.2" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-annotations-api:9.0.17" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.0.4" />
+          <element id="file-copy" path="E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.16/6088b7a25188ab4b3ab865422a8ec77ade29236/mysql-connector-java-8.0.16.jar" />
+          <element id="file-copy" path="E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.1/d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924/protobuf-java-3.6.1.jar" />
         </element>
       </element>
     </root>

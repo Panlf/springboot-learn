@@ -12,7 +12,7 @@ public class EncryptionPassword {
         /**
          * 加密密码
          */
-        String password = "123456";
+        String password = "qwer";
 
         /**
          * 加密算法

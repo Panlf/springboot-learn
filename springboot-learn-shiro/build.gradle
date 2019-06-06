@@ -2,4 +2,6 @@ dependencies{
     compileOnly libs.lombok
     compile libs.shiro
     compile libs.thymeleaf
+    compile libs.mysql
+    compile libs.jpa
 }
