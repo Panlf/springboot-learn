@@ -39,10 +39,15 @@ ext{
             ],
             shiro:[
                     "org.apache.shiro:shiro-core:1.4.1",
-                    "org.apache.shiro:shiro-spring:1.4.1"
+                    "org.apache.shiro:shiro-spring:1.4.1",
+                    "org.apache.shiro:shiro-ehcache:1.4.1"
             ],
             thymeleaf:[
                     "org.springframework.boot:spring-boot-starter-thymeleaf:${versions.springBootVersion}"
+            ],
+            ehcache:[
+                    "org.springframework.boot:spring-boot-starter-cache:${versions.springBootVersion}",
+                    "net.sf.ehcache:ehcache:3.7.1"
             ]
     ]
 }

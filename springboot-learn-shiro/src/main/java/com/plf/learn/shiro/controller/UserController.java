@@ -1,17 +1,17 @@
 package com.plf.learn.shiro.controller;
 
+import com.plf.learn.shiro.realm.MyShiroRealm;
 import com.plf.learn.shiro.service.AdminActionService;
-import com.plf.learn.shiro.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
+import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -63,6 +63,7 @@ public class UserController {
     @PostMapping("login")
     public String Login(@RequestParam String username
             ,@RequestParam String password){
+
         Subject currentUser = SecurityUtils.getSubject();
 
         log.info("Login currentUser - {}",currentUser);
@@ -73,8 +74,14 @@ public class UserController {
             token.setRememberMe(true);
             try{
                 currentUser.login(token);
+                DefaultWebSecurityManager securityManager = (DefaultWebSecurityManager)SecurityUtils.getSecurityManager();
+                log.info("securityManager:{}",securityManager);
+                MyShiroRealm myShiroRealm = (MyShiroRealm)securityManager.getRealms().iterator().next();
+                log.info("myShiroRealm:{}",myShiroRealm);
+                log.info("授权缓存 - authorizationCache:{}",myShiroRealm.getAuthorizationCache());
+                log.info("认证缓存 - authenticationCache:{}",myShiroRealm.getAuthenticationCache());
             }catch(AuthenticationException e){
-                System.out.println("登录失败："+e.getMessage());
+                log.error("登录失败:{}",e.getMessage());
                 return "fail";
             }
         }

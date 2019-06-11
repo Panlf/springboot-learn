@@ -2,6 +2,7 @@ package com.plf.learn.shiro.config;
 
 import com.plf.learn.shiro.realm.MyShiroRealm;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -31,12 +32,13 @@ import org.springframework.context.annotation.DependsOn;
 public class ShiroConfig {
 
     @Bean
-    public DefaultWebSecurityManager  securityManager(CookieRememberMeManager rememberMeManager, MyShiroRealm myShiroRealm) {
+    public DefaultWebSecurityManager  securityManager(CookieRememberMeManager rememberMeManager, MyShiroRealm myShiroRealm,EhCacheManager ehCacheManager) {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(myShiroRealm);
         //注入Cookie(记住我)管理器(cookieRememberMeManager)
         log.info("cookieRememberMeManager ---------- {}", rememberMeManager);
         securityManager.setRememberMeManager(rememberMeManager);
+        securityManager.setCacheManager(ehCacheManager);
         return securityManager;
     }
 
@@ -70,6 +72,15 @@ public class ShiroConfig {
     public MyShiroRealm myShiroRealm(HashedCredentialsMatcher hashedCredentialsMatcher) {
         MyShiroRealm myShiroRealm = new MyShiroRealm();
         myShiroRealm.setCredentialsMatcher(hashedCredentialsMatcher);
+        myShiroRealm.setCachingEnabled(true);
+        //启用身份验证缓存，即缓存AuthenticationInfo信息，默认false
+        myShiroRealm.setAuthenticationCachingEnabled(true);
+        //缓存AuthenticationInfo信息的缓存名称 在ehcache.xml中有对应缓存的配置
+        myShiroRealm.setAuthenticationCacheName("authenticationCache");
+        //启用授权缓存，即缓存AuthorizationInfo信息，默认false
+        myShiroRealm.setAuthorizationCachingEnabled(true);
+        //缓存AuthorizationInfo信息的缓存名称  在ehcache.xml中有对应缓存的配置
+        myShiroRealm.setAuthorizationCacheName("authorizationCache");
         return myShiroRealm;
     }
 
@@ -176,5 +187,16 @@ public class ShiroConfig {
         return authorizationAttributeSourceAdvisor;
     }
 
+    /**
+     * shiro缓存管理器;
+     * 需要添加到securityManager中
+     * @return
+     */
+    @Bean
+    public EhCacheManager ehCacheManager(){
+        EhCacheManager cacheManager = new EhCacheManager();
+        cacheManager.setCacheManagerConfigFile("classpath:ehcache.xml");
+        return cacheManager;
+    }
 
 }

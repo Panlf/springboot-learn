@@ -5,7 +5,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.plf.learn.shiro.bean.User;
+import com.plf.learn.shiro.config.MySimpleByteSource;
 import com.plf.learn.shiro.service.UserService;
+import com.plf.learn.shiro.utils.SerializeUtil;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -13,10 +15,12 @@ import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
+import org.apache.shiro.cache.Cache;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 
 /**
  * @author Panlf
@@ -24,7 +28,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class MyShiroRealm extends AuthorizingRealm {
 
-
+    @Lazy
     @Autowired
     private UserService userService;
 
@@ -59,10 +63,10 @@ public class MyShiroRealm extends AuthorizingRealm {
         String realmName = getName();
 
         //4）盐值
-        ByteSource credentialsSalt = ByteSource.Util.bytes(user.getSalt());
+        ByteSource credentialsSalt = new MySimpleByteSource(user.getSalt());// ByteSource.Util.bytes(user.getSalt());
 
         SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(principal,
-                credentials,credentialsSalt,realmName);
+                credentials, credentialsSalt,realmName);
 
         return info;
     }
@@ -93,4 +97,58 @@ public class MyShiroRealm extends AuthorizingRealm {
         return info;
     }
 
+    /**
+     * 重写方法,清除当前用户的的 认证缓存
+     * @param principals
+     */
+    @Override
+    protected void clearCachedAuthenticationInfo(PrincipalCollection principals) {
+        super.clearCachedAuthenticationInfo(principals);
+    }
+
+    /**
+     * 重写方法，清除当前用户的 授权缓存
+     * @param principals
+     */
+    @Override
+    protected void clearCachedAuthorizationInfo(PrincipalCollection principals) {
+        super.clearCachedAuthorizationInfo(principals);
+    }
+
+    @Override
+    protected void clearCache(PrincipalCollection principals) {
+        super.clearCache(principals);
+    }
+
+    /**
+     * 自定义方法：清除所有 授权缓存
+     */
+    public void clearAllCachedAuthorizationInfo() {
+        getAuthorizationCache().clear();
+    }
+
+    /**
+     * 自定义方法：清除所有 认证缓存
+     */
+    public void clearAllCachedAuthenticationInfo() {
+        getAuthenticationCache().clear();
+    }
+
+    /**
+     * 自定义方法：清除所有的  认证缓存  和 授权缓存
+     */
+    public void clearAllCache() {
+        clearAllCachedAuthenticationInfo();
+        clearAllCachedAuthorizationInfo();
+    }
+
+    @Override
+    public Cache<Object, AuthorizationInfo> getAuthorizationCache() {
+        return super.getAuthorizationCache();
+    }
+
+    @Override
+    public Cache<Object, AuthenticationInfo> getAuthenticationCache() {
+        return super.getAuthenticationCache();
+    }
 }

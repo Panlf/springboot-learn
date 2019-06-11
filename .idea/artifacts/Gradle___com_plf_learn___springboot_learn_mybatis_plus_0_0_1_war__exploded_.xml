@@ -19,6 +19,7 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:8.0.16" />
           <element id="library" level="project" name="Gradle: com.baomidou:mybatis-plus-boot-starter:3.0.2" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.0.1.RELEASE" />
@@ -47,6 +48,7 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.1.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.1.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.xmlunit:xmlunit-core:2.6.2" />
+          <element id="library" level="project" name="Gradle: com.google.protobuf:protobuf-java:3.6.1" />
           <element id="library" level="project" name="Gradle: com.baomidou:mybatis-plus:3.0.2" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-configuration-processor:2.0.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.1.4.RELEASE" />
@@ -90,8 +92,6 @@
           <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.5" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.3" />
           <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.2" />
-          <element id="file-copy" path="E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.16/6088b7a25188ab4b3ab865422a8ec77ade29236/mysql-connector-java-8.0.16.jar" />
-          <element id="file-copy" path="E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.1/d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924/protobuf-java-3.6.1.jar" />
         </element>
       </element>
     </root>
