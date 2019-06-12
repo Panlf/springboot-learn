@@ -48,6 +48,12 @@ ext{
             ehcache:[
                     "org.springframework.boot:spring-boot-starter-cache:${versions.springBootVersion}",
                     "net.sf.ehcache:ehcache:3.7.1"
+            ],
+            mybatis:[
+                    "org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.1"
+            ],
+            sharding:[
+                    "org.apache.shardingsphere:sharding-jdbc-core:4.0.0-RC1"
             ]
     ]
 }
