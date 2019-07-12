@@ -29,3 +29,11 @@ Jwt用于信息访问授权功能，本案例使用Jwt生成授权token，访问
 ### 7、SpringBoot整合JetCache
 
 简单实现基于JetCache的数据缓存。
+
+### 8、SpringBoot整合Shiro
+
+实现Shiro的登录、登出、权限操作等简单功能。
+
+### 9、SpringBoot整合Sharding-JDBC和MyBatis
+
+简单根据取模0-1进行数据的分库分表，使用配置的方式进行操作。
