@@ -1,6 +1,6 @@
 ext{
     versions = [
-            springBootVersion: '2.1.4.RELEASE'
+            springBootVersion: '2.1.6.RELEASE'
     ]
     libs = [
             springboot  :[
@@ -54,6 +54,18 @@ ext{
             ],
             sharding:[
                     "org.apache.shardingsphere:sharding-jdbc-core:4.0.0-RC1"
+            ],
+            pagehelper:[
+                    "com.github.pagehelper:pagehelper-spring-boot-starter:1.2.12"
+            ],
+            druid:[
+                    "com.alibaba:druid-spring-boot-starter:1.1.18"
+            ],
+            postgresql:[
+                    "org.postgresql:postgresql:42.2.5"
+            ],
+            log4j:[
+                    "log4j:log4j:1.2.17"
             ]
     ]
 }

@@ -1,0 +1,9 @@
+dependencies{
+    compile libs.postgresql
+    compile libs.pagehelper
+    compile libs.mybatis
+    compile libs.log4j
+    compile libs.druid
+    compileOnly libs.lombok
+}
+

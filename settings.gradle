@@ -8,4 +8,5 @@ include 'springboot-learn-distributed-lock'
 include 'springboot-learn-jetcache'
 include 'springboot-learn-shiro'
 include 'springboot-learn-sharding-jdbc'
+include 'springboot-learn-druid-monitor'
 
