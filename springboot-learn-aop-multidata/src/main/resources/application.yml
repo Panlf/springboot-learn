@@ -1,0 +1,12 @@
+server:
+  port: 8008
+  servlet:
+    context-path: /aop
+
+spring:
+  datasource:
+    url_user:  jdbc:mysql://localhost:3306/house_user?useUnicode=true&characterEncoding=UTF-8&useSSL=true&serverTimezone=GMT%2B8
+    url_comment:  jdbc:mysql://localhost:3306/house_comment?useUnicode=true&characterEncoding=UTF-8&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver

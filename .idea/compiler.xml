@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/springboot-learn-jpa/src/test/java/com/plf/learn/jpa/test/ControllerRestTest.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-learn-aop-multidata_main" target="1.8" />
+      <module name="springboot-learn-aop-multidata_test" target="1.8" />
       <module name="springboot-learn-custom-event__main" target="1.8" />
       <module name="springboot-learn-custom-event__test" target="1.8" />
       <module name="springboot-learn-custom-event_main" target="1.8" />

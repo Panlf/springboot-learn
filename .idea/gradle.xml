@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/springboot-learn-aop-multidata" />
             <option value="$PROJECT_DIR$/springboot-learn-custom-event" />
             <option value="$PROJECT_DIR$/springboot-learn-distributed-lock" />
             <option value="$PROJECT_DIR$/springboot-learn-druid-monitor" />
