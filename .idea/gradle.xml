@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/springboot-learn-mybatis-plus" />
             <option value="$PROJECT_DIR$/springboot-learn-sharding-jdbc" />
             <option value="$PROJECT_DIR$/springboot-learn-shiro" />
+            <option value="$PROJECT_DIR$/springboot-learn-staticftl" />
           </set>
         </option>
       </GradleProjectSettings>

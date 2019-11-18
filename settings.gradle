@@ -10,4 +10,5 @@ include 'springboot-learn-shiro'
 include 'springboot-learn-sharding-jdbc'
 include 'springboot-learn-druid-monitor'
 include 'springboot-learn-aop-multidata'
+include 'springboot-learn-staticftl'
 

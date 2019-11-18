@@ -77,7 +77,7 @@ public class DataSourceConfig {
     }
 
     /**
-     * 事物
+     * 事务
      */
     @Bean
     public PlatformTransactionManager transactionManager(@Qualifier("dataSource") DataSource dataSource) {

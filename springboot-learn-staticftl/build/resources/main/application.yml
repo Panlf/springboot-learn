@@ -1,0 +1,37 @@
+server:
+  port: 8015
+  servlet:
+    context-path: /staticftl
+
+# freemarker静态资源配置
+# 文件路径
+spring:
+  freemarker:
+    tempalte-loader-path: classpath:/templates
+# 关闭缓存，及时刷新
+    cache:  false
+    charset:  UTF-8
+    content-type: text/html
+    suffix: .html
+
+  mvc:
+    static-path-pattern: /static/**
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: staticftl
+  activemq:
+    broker-url: tcp://localhost:61616
+    #true 表示使用内置的MQ，false则连接服务器
+    in-memory: false
+    #true表示使用连接池；false时，每发送一条数据创建一个连接
+    pool:
+      enabled: true
+      #连接池最大连接数
+      max-connections: 10
+      idle-timeout: 30000
+    user: admin
+    password: admin
+
+

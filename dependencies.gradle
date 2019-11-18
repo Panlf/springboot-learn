@@ -72,6 +72,16 @@ ext{
             ],
             log4j:[
                     "log4j:log4j:1.2.17"
+            ],
+            freemarker:[
+                    "org.springframework.boot:spring-boot-starter-freemarker:${versions.springBootVersion}"
+            ],
+            activemq:[
+                    "org.springframework.boot:spring-boot-starter-activemq:${versions.springBootVersion}",
+                    "org.messaginghub:pooled-jms:1.1.0"
+            ],
+            mongodb:[
+                    "org.springframework.data:spring-data-mongodb:${versions.springBootVersion}"
             ]
     ]
 }
