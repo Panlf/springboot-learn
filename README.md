@@ -37,3 +37,7 @@ Jwt用于信息访问授权功能，本案例使用Jwt生成授权token，访问
 ### 9、SpringBoot整合Sharding-JDBC和MyBatis
 
 简单根据取模0-1进行数据的分库分表，使用配置的方式进行操作。
+
+### 10、SpringBoot整合MongoDB、ActiveMQ、Freemarker实现静态化页面
+
+数据存储在MongoDB中，利用ActiveMQ的队列模式，监听到数据产生或者更改就立即对页面进行静态化输出。
