@@ -20,6 +20,8 @@
       <module name="springboot-learn-distributed-lock_test" target="1.8" />
       <module name="springboot-learn-druid-monitor_main" target="1.8" />
       <module name="springboot-learn-druid-monitor_test" target="1.8" />
+      <module name="springboot-learn-elastic-job_main" target="1.8" />
+      <module name="springboot-learn-elastic-job_test" target="1.8" />
       <module name="springboot-learn-jetcache_main" target="1.8" />
       <module name="springboot-learn-jetcache_test" target="1.8" />
       <module name="springboot-learn-jpa_main" target="1.8" />
@@ -32,6 +34,8 @@
       <module name="springboot-learn-mybatis-plus_test" target="1.8" />
       <module name="springboot-learn-sharding-jdbc_main" target="1.8" />
       <module name="springboot-learn-sharding-jdbc_test" target="1.8" />
+      <module name="springboot-learn-share-session_main" target="1.8" />
+      <module name="springboot-learn-share-session_test" target="1.8" />
       <module name="springboot-learn-shiro_main" target="1.8" />
       <module name="springboot-learn-shiro_test" target="1.8" />
       <module name="springboot-learn-staticftl_main" target="1.8" />

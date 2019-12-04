@@ -22,7 +22,4 @@ public class ActiveMQProducer {
     public void sendMessage(String destination,String message){
         jmsMessagingTemplate.convertAndSend(destination,message);
     }
-
-
-
 }

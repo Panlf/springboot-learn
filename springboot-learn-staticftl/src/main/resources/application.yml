@@ -13,7 +13,6 @@ spring:
     charset:  UTF-8
     content-type: text/html
     suffix: .html
-
   mvc:
     static-path-pattern: /static/**
   data:

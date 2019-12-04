@@ -1,0 +1,5 @@
+dependencies{
+    compile libs.redis
+    compile libs.springsession
+    compileOnly libs.lombok
+}

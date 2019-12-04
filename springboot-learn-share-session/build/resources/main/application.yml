@@ -1,0 +1,34 @@
+server:
+  port: 8031
+  servlet:
+    context-path: /sharesession
+
+
+spring:
+  redis:
+    #数据库索引
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        #最大连接数
+        max-active: 8
+        #最大阻塞等待时间(负数表示没限制)
+        max-wait: 8
+        #最大空闲
+        max-idle: 8
+        #最小空闲
+        min-idle: -1
+    #连接超时时间
+    timeout: 10000
+  session:
+    store-type: redis
+    redis:
+    # session更新策略，有ON_SAVE、IMMEDIATE，
+    # ON_SAVE是在调用#SessionRepository#save(org.springframework.session.Session)时，在response commit前刷新缓存
+    # IMMEDIATE是只要有任何更新就会刷新缓存
+      flush-mode: on_save
+
+  # ON_SAVE: 只有当SessionRepository.save(Session)方法被调用时, 才会将session中的数据同步到redis中. 在web 应用中, 当请求完成响应后, 才开始同步. 也就是说在执行response 之前session数据都是缓存在本地的.
+  # IMMEDIATE: 实时同步session 数据到redis. 当执行SessionRepository.createSession()时, 会将session数据同步到redis中; 当对session的attribute进行set/remove 等操作时, 也会同步session中的数据到redis中.

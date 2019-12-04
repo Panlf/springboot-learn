@@ -82,6 +82,13 @@ ext{
             ],
             mongodb:[
                     "org.springframework.data:spring-data-mongodb:${versions.springBootVersion}"
+            ],
+            elasticjob:[
+                    "com.dangdang:elastic-job-lite-spring:2.1.5"
+            ],
+            springsession:[
+                    "org.springframework.session:spring-session-data-redis:${versions.springBootVersion}",
+                    "org.apache.commons:commons-pool2:2.7.0"
             ]
     ]
 }

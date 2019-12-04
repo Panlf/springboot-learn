@@ -62,8 +62,8 @@ public class BlogService {
         Writer out = null;
         try {
             //获取模板页面
-            String templatePath1 =ClassLoader.getSystemResource("templates").getPath();
-            TemplateLoader templateLoader=new FileTemplateLoader(new File(templatePath1+"\\blog"));
+            String templatePath =ClassLoader.getSystemResource("templates").getPath();
+            TemplateLoader templateLoader=new FileTemplateLoader(new File(templatePath+"\\blog"));
             config.setTemplateLoader(templateLoader);
             Template template = config.getTemplate("detail.html");
 
