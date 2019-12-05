@@ -1,8 +1,7 @@
 server:
-  port: 8031
+  port: 8030
   servlet:
     context-path: /sharesession
-
 
 spring:
   redis:
@@ -32,3 +31,4 @@ spring:
 
   # ON_SAVE: 只有当SessionRepository.save(Session)方法被调用时, 才会将session中的数据同步到redis中. 在web 应用中, 当请求完成响应后, 才开始同步. 也就是说在执行response 之前session数据都是缓存在本地的.
   # IMMEDIATE: 实时同步session 数据到redis. 当执行SessionRepository.createSession()时, 会将session数据同步到redis中; 当对session的attribute进行set/remove 等操作时, 也会同步session中的数据到redis中.
+

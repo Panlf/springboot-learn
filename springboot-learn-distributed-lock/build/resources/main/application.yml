@@ -1,0 +1,32 @@
+server:
+  port: 8004
+  servlet:
+    context-path: /lock
+
+spring:
+  redis:
+    #数据库索引
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        #最大连接数
+        max-active: 8
+        #最大阻塞等待时间(负数表示没限制)
+        max-wait: -1
+        #最大空闲
+        max-idle: 8
+        #最小空闲
+        min-idle: 0
+    #连接超时时间
+    timeout: 10000
+
+
+curator:
+  retryCount: 5  #重试次数
+  elapsedTimeMs:  5000   #重试间隔时间
+  connectString:  127.0.0.1:2181   # zookeeper 地址
+  sessionTimeoutMs: 60000  # session超时时间
+  connectionTimeoutMs:  5000  # 连接超时时间
+

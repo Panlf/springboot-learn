@@ -14,25 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2620f058-9470-49f5-9648-5de56b35f1e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/build/resources/main/static/css/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/build/resources/main/static/html/1574062245007.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/build/resources/main/templates/blog/detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/build/resources/main/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/resources/templates/blog/save.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/build/resources/main/templates/blog/save.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependencies.gradle" afterPath="$PROJECT_DIR$/dependencies.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-jwt/src/main/resources/readme.txt" afterPath="$PROJECT_DIR$/springboot-learn-jwt/src/main/resources/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/java/com/plf/learn/staticftl/component/ActiveMQProducer.java" afterPath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/java/com/plf/learn/staticftl/component/ActiveMQProducer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/java/com/plf/learn/staticftl/service/BlogService.java" afterPath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/java/com/plf/learn/staticftl/service/BlogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/resources/templates/blog/detail.html" afterPath="$PROJECT_DIR$/springboot-learn-staticftl/src/main/resources/templates/blog/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-share-session/build.gradle" afterPath="$PROJECT_DIR$/springboot-learn-share-session/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-share-session/build/resources/main/application.yml" afterPath="$PROJECT_DIR$/springboot-learn-share-session/build/resources/main/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/controller/ShareSessionController.java" afterPath="$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/controller/ShareSessionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-learn-share-session/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springboot-learn-share-session/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -113,19 +102,11 @@
         <task path="$PROJECT_DIR$/springboot-learn-distributed-lock">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/springboot-learn-share-session">
+          <activation />
+        </task>
         <projects_view>
-          <tree_state>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="springboot-learn" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-            </PATH>
-          </tree_state>
+          <tree_state />
         </projects_view>
       </state>
     </system>
@@ -138,17 +119,17 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="25">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="850">
               <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
@@ -161,8 +142,92 @@
             <state relative-caret-position="1175">
               <caret line="104" column="33" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="33" />
               <folding>
-                <element signature="e#19159#19160#0" expanded="true" />
-                <element signature="e#19196#19197#0" expanded="true" />
+                <element signature="e#0#32363#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4429#4430#0" expanded="false" />
+                <element signature="e#4479#4480#0" expanded="false" />
+                <element signature="e#5612#5613#0" expanded="false" />
+                <element signature="e#5670#5671#0" expanded="false" />
+                <element signature="e#11113#11114#0" expanded="false" />
+                <element signature="e#11137#11138#0" expanded="false" />
+                <element signature="e#16956#16957#0" expanded="false" />
+                <element signature="e#17000#17001#0" expanded="false" />
+                <element signature="e#17236#17237#0" expanded="false" />
+                <element signature="e#17281#17282#0" expanded="false" />
+                <element signature="e#17396#17397#0" expanded="false" />
+                <element signature="e#17440#17441#0" expanded="false" />
+                <element signature="e#17773#17774#0" expanded="false" />
+                <element signature="e#17823#17824#0" expanded="false" />
+                <element signature="e#17982#17983#0" expanded="false" />
+                <element signature="e#18044#18045#0" expanded="false" />
+                <element signature="e#18879#18880#0" expanded="false" />
+                <element signature="e#18919#18920#0" expanded="false" />
+                <element signature="e#19159#19160#0" expanded="false" />
+                <element signature="e#19196#19197#0" expanded="false" />
+                <element signature="e#19356#19357#0" expanded="false" />
+                <element signature="e#19379#19380#0" expanded="false" />
+                <element signature="e#19989#19990#0" expanded="false" />
+                <element signature="e#20019#20020#0" expanded="false" />
+                <element signature="e#21582#21583#0" expanded="false" />
+                <element signature="e#21644#21645#0" expanded="false" />
+                <element signature="e#22009#22010#0" expanded="false" />
+                <element signature="e#22067#22068#0" expanded="false" />
+                <element signature="e#22181#22182#0" expanded="false" />
+                <element signature="e#22277#22278#0" expanded="false" />
+                <element signature="e#23002#23003#0" expanded="false" />
+                <element signature="e#23064#23065#0" expanded="false" />
+                <element signature="e#23480#23481#0" expanded="false" />
+                <element signature="e#23543#23544#0" expanded="false" />
+                <element signature="e#23679#23680#0" expanded="false" />
+                <element signature="e#23712#23713#0" expanded="false" />
+                <element signature="e#23871#23872#0" expanded="false" />
+                <element signature="e#23901#23902#0" expanded="false" />
+                <element signature="e#24867#24868#0" expanded="false" />
+                <element signature="e#24908#24909#0" expanded="false" />
+                <element signature="e#25537#25538#0" expanded="false" />
+                <element signature="e#25608#25609#0" expanded="false" />
+                <element signature="e#25742#25743#0" expanded="false" />
+                <element signature="e#25812#25813#0" expanded="false" />
+                <element signature="e#27232#27233#0" expanded="false" />
+                <element signature="e#27310#27311#0" expanded="false" />
+                <element signature="e#27346#27347#0" expanded="false" />
+                <element signature="e#27427#27428#0" expanded="false" />
+                <element signature="e#29160#29161#0" expanded="false" />
+                <element signature="e#29182#29183#0" expanded="false" />
+                <element signature="e#29225#29226#0" expanded="false" />
+                <element signature="e#29254#29255#0" expanded="false" />
+                <element signature="e#29462#29463#0" expanded="false" />
+                <element signature="e#29515#29516#0" expanded="false" />
+                <element signature="e#29587#29588#0" expanded="false" />
+                <element signature="e#29636#29637#0" expanded="false" />
+                <element signature="e#29835#29836#0" expanded="false" />
+                <element signature="e#29885#29886#0" expanded="false" />
+                <element signature="e#29948#29949#0" expanded="false" />
+                <element signature="e#29991#29992#0" expanded="false" />
+                <element signature="e#30199#30200#0" expanded="false" />
+                <element signature="e#30252#30253#0" expanded="false" />
+                <element signature="e#30324#30325#0" expanded="false" />
+                <element signature="e#30373#30374#0" expanded="false" />
+                <element signature="e#30548#30549#0" expanded="false" />
+                <element signature="e#30574#30575#0" expanded="false" />
+                <element signature="e#30625#30626#0" expanded="false" />
+                <element signature="e#30662#30663#0" expanded="false" />
+                <element signature="e#30865#30866#0" expanded="false" />
+                <element signature="e#30912#30913#0" expanded="false" />
+                <element signature="e#30979#30980#0" expanded="false" />
+                <element signature="e#31016#31017#0" expanded="false" />
+                <element signature="e#31202#31203#0" expanded="false" />
+                <element signature="e#31249#31250#0" expanded="false" />
+                <element signature="e#31299#31300#0" expanded="false" />
+                <element signature="e#31336#31337#0" expanded="false" />
+                <element signature="e#31516#31517#0" expanded="false" />
+                <element signature="e#31543#31544#0" expanded="false" />
+                <element signature="e#31597#31598#0" expanded="false" />
+                <element signature="e#31636#31637#0" expanded="false" />
+                <element signature="e#31822#31823#0" expanded="false" />
+                <element signature="e#31852#31853#0" expanded="false" />
+                <element signature="e#31912#31913#0" expanded="false" />
+                <element signature="e#31957#31958#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -171,8 +236,8 @@
       <file leaf-file-name="ShareSessionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/controller/ShareSessionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,12 +258,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBootShareSessionApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpringBootShareSessionApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/SpringBootShareSessionApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +275,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="32" />
-              <folding />
+              <folding>
+                <element signature="e#0#1486#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2412,7 +2482,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="26579414370148" />
+        <entry key="$PROJECT_DIR$" value="26579479413490" />
         <entry key="$PROJECT_DIR$/build.gradle" value="16543980" />
         <entry key="$PROJECT_DIR$/dependencies.gradle" value="3085147070" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="514373036" />
@@ -2427,7 +2497,7 @@
         <entry key="$PROJECT_DIR$/springboot-learn-mail/build.gradle" value="483867603" />
         <entry key="$PROJECT_DIR$/springboot-learn-mybatis-plus/build.gradle" value="2817410732" />
         <entry key="$PROJECT_DIR$/springboot-learn-sharding-jdbc/build.gradle" value="530892579" />
-        <entry key="$PROJECT_DIR$/springboot-learn-share-session/build.gradle" value="2238383121" />
+        <entry key="$PROJECT_DIR$/springboot-learn-share-session/build.gradle" value="67062103" />
         <entry key="$PROJECT_DIR$/springboot-learn-shiro/build.gradle" value="4020901109" />
         <entry key="$PROJECT_DIR$/springboot-learn-staticftl/build.gradle" value="915753497" />
       </map>
@@ -2684,13 +2754,13 @@
         <option value="$PROJECT_DIR$/springboot-learn-elastic-job/src/main/java/com/plf/learn/elastic/job/FileBackupJob.java" />
         <option value="$PROJECT_DIR$/springboot-learn-elastic-job/src/main/resources/readme.txt" />
         <option value="$PROJECT_DIR$/springboot-learn-jwt/src/main/resources/readme.txt" />
-        <option value="$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/controller/ShareSessionController.java" />
         <option value="$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/config/RedisSessionInitializer.java" />
         <option value="$PROJECT_DIR$/dependencies.gradle" />
         <option value="$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/config/RedisSessionConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-learn-share-session/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/controller/ShareSessionController.java" />
         <option value="$PROJECT_DIR$/springboot-learn-share-session/build.gradle" />
         <option value="$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/SpringBootShareSessionApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-learn-share-session/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -2893,8 +2963,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3538,6 +3608,8 @@
       <workItem from="1575424075058" duration="13170000" />
       <workItem from="1575447283950" duration="4081000" />
       <workItem from="1575453177804" duration="837000" />
+      <workItem from="1575506637008" duration="2226000" />
+      <workItem from="1575508958189" duration="3541000" />
     </task>
     <servers />
   </component>
@@ -3574,7 +3646,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227438000" />
+    <option name="totallyTimeSpent" value="233205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3587,6 +3659,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -3601,16 +3674,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.4697428" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.46066564" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.53933436" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.53025717" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.49394855" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382752" sideWeight="0.47494033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28290468" sideWeight="0.47494033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33653846" sideWeight="0.4773071" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31164902" sideWeight="0.5095694" order="6" side_tool="true" content_ui="tabs" />
@@ -3750,7 +3823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="13" column="0" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3786,11 +3858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3805,9 +3872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3815,9 +3879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
           <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3881,7 +3942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-127">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3889,7 +3949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3897,7 +3956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3987,7 +4045,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#0#1486#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3996,8 +4057,92 @@
         <state relative-caret-position="1175">
           <caret line="104" column="33" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="33" />
           <folding>
-            <element signature="e#19159#19160#0" expanded="true" />
-            <element signature="e#19196#19197#0" expanded="true" />
+            <element signature="e#0#32363#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4429#4430#0" expanded="false" />
+            <element signature="e#4479#4480#0" expanded="false" />
+            <element signature="e#5612#5613#0" expanded="false" />
+            <element signature="e#5670#5671#0" expanded="false" />
+            <element signature="e#11113#11114#0" expanded="false" />
+            <element signature="e#11137#11138#0" expanded="false" />
+            <element signature="e#16956#16957#0" expanded="false" />
+            <element signature="e#17000#17001#0" expanded="false" />
+            <element signature="e#17236#17237#0" expanded="false" />
+            <element signature="e#17281#17282#0" expanded="false" />
+            <element signature="e#17396#17397#0" expanded="false" />
+            <element signature="e#17440#17441#0" expanded="false" />
+            <element signature="e#17773#17774#0" expanded="false" />
+            <element signature="e#17823#17824#0" expanded="false" />
+            <element signature="e#17982#17983#0" expanded="false" />
+            <element signature="e#18044#18045#0" expanded="false" />
+            <element signature="e#18879#18880#0" expanded="false" />
+            <element signature="e#18919#18920#0" expanded="false" />
+            <element signature="e#19159#19160#0" expanded="false" />
+            <element signature="e#19196#19197#0" expanded="false" />
+            <element signature="e#19356#19357#0" expanded="false" />
+            <element signature="e#19379#19380#0" expanded="false" />
+            <element signature="e#19989#19990#0" expanded="false" />
+            <element signature="e#20019#20020#0" expanded="false" />
+            <element signature="e#21582#21583#0" expanded="false" />
+            <element signature="e#21644#21645#0" expanded="false" />
+            <element signature="e#22009#22010#0" expanded="false" />
+            <element signature="e#22067#22068#0" expanded="false" />
+            <element signature="e#22181#22182#0" expanded="false" />
+            <element signature="e#22277#22278#0" expanded="false" />
+            <element signature="e#23002#23003#0" expanded="false" />
+            <element signature="e#23064#23065#0" expanded="false" />
+            <element signature="e#23480#23481#0" expanded="false" />
+            <element signature="e#23543#23544#0" expanded="false" />
+            <element signature="e#23679#23680#0" expanded="false" />
+            <element signature="e#23712#23713#0" expanded="false" />
+            <element signature="e#23871#23872#0" expanded="false" />
+            <element signature="e#23901#23902#0" expanded="false" />
+            <element signature="e#24867#24868#0" expanded="false" />
+            <element signature="e#24908#24909#0" expanded="false" />
+            <element signature="e#25537#25538#0" expanded="false" />
+            <element signature="e#25608#25609#0" expanded="false" />
+            <element signature="e#25742#25743#0" expanded="false" />
+            <element signature="e#25812#25813#0" expanded="false" />
+            <element signature="e#27232#27233#0" expanded="false" />
+            <element signature="e#27310#27311#0" expanded="false" />
+            <element signature="e#27346#27347#0" expanded="false" />
+            <element signature="e#27427#27428#0" expanded="false" />
+            <element signature="e#29160#29161#0" expanded="false" />
+            <element signature="e#29182#29183#0" expanded="false" />
+            <element signature="e#29225#29226#0" expanded="false" />
+            <element signature="e#29254#29255#0" expanded="false" />
+            <element signature="e#29462#29463#0" expanded="false" />
+            <element signature="e#29515#29516#0" expanded="false" />
+            <element signature="e#29587#29588#0" expanded="false" />
+            <element signature="e#29636#29637#0" expanded="false" />
+            <element signature="e#29835#29836#0" expanded="false" />
+            <element signature="e#29885#29886#0" expanded="false" />
+            <element signature="e#29948#29949#0" expanded="false" />
+            <element signature="e#29991#29992#0" expanded="false" />
+            <element signature="e#30199#30200#0" expanded="false" />
+            <element signature="e#30252#30253#0" expanded="false" />
+            <element signature="e#30324#30325#0" expanded="false" />
+            <element signature="e#30373#30374#0" expanded="false" />
+            <element signature="e#30548#30549#0" expanded="false" />
+            <element signature="e#30574#30575#0" expanded="false" />
+            <element signature="e#30625#30626#0" expanded="false" />
+            <element signature="e#30662#30663#0" expanded="false" />
+            <element signature="e#30865#30866#0" expanded="false" />
+            <element signature="e#30912#30913#0" expanded="false" />
+            <element signature="e#30979#30980#0" expanded="false" />
+            <element signature="e#31016#31017#0" expanded="false" />
+            <element signature="e#31202#31203#0" expanded="false" />
+            <element signature="e#31249#31250#0" expanded="false" />
+            <element signature="e#31299#31300#0" expanded="false" />
+            <element signature="e#31336#31337#0" expanded="false" />
+            <element signature="e#31516#31517#0" expanded="false" />
+            <element signature="e#31543#31544#0" expanded="false" />
+            <element signature="e#31597#31598#0" expanded="false" />
+            <element signature="e#31636#31637#0" expanded="false" />
+            <element signature="e#31822#31823#0" expanded="false" />
+            <element signature="e#31852#31853#0" expanded="false" />
+            <element signature="e#31912#31913#0" expanded="false" />
+            <element signature="e#31957#31958#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4012,18 +4157,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/config/RedisSessionConfig.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/controller/ShareSessionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -4032,16 +4169,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="25">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/java/com/plf/learn/share/session/SpringBootShareSessionApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-learn-share-session/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
