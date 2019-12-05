@@ -41,3 +41,19 @@ Jwt用于信息访问授权功能，本案例使用Jwt生成授权token，访问
 ### 10、SpringBoot整合MongoDB、ActiveMQ、Freemarker实现静态化页面
 
 数据存储在MongoDB中，利用ActiveMQ的队列模式，监听到数据产生或者更改就立即对页面进行静态化输出。
+
+### 11、SpringBoot使用AOP实现多数据源
+
+Spring自带的AOP功能实现多数据源的配置。
+
+### 12、SpringBoot整合Spring Session实现分布式Session
+
+SpringBoot整合Spring Session，并将Session数据保存到Redis中，实现分布式Session。
+
+### 13、SpringBoot整合elastic-job
+
+SpringBoot整合elastic-job，实现分布式定时任务。
+
+### 14、SpringBoot整合Druid Monitor
+
+SpringBoot整合Druid、Postgresql、Mybatis，实现Druid对SQL语句的监控。
