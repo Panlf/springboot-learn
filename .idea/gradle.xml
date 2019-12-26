@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/springboot-learn-jetcache" />
             <option value="$PROJECT_DIR$/springboot-learn-jpa" />
             <option value="$PROJECT_DIR$/springboot-learn-jwt" />
+            <option value="$PROJECT_DIR$/springboot-learn-kafka" />
             <option value="$PROJECT_DIR$/springboot-learn-mail" />
             <option value="$PROJECT_DIR$/springboot-learn-mybatis-plus" />
             <option value="$PROJECT_DIR$/springboot-learn-sharding-jdbc" />

@@ -1,6 +1,7 @@
 ext{
     versions = [
-            springBootVersion: '2.1.6.RELEASE'
+            springBootVersion: '2.1.6.RELEASE',
+            springKafkaVersion: '2.2.7.RELEASE'
     ]
     libs = [
             springboot  :[
@@ -89,6 +90,7 @@ ext{
             springsession:[
                     "org.springframework.session:spring-session-data-redis:${versions.springBootVersion}",
                     "org.apache.commons:commons-pool2:2.7.0"
-            ]
+            ],
+            kafka:["org.springframework.kafka:spring-kafka:${versions.springKafkaVersion}"]
     ]
 }

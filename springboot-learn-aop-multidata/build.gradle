@@ -2,5 +2,4 @@ dependencies{
     compile libs.mysql
     compile libs.aop
     compile libs.jdbc
-    compileOnly libs.lombok
 }

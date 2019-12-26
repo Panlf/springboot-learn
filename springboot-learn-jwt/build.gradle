@@ -3,5 +3,4 @@ dependencies{
     compile libs.mysql
     compile libs.jpa
     compile libs.redis
-    compileOnly libs.lombok
 }

@@ -2,5 +2,4 @@ dependencies{
     compile libs.mysql
     compile libs.mybatis
     compile libs.sharding
-    compileOnly libs.lombok
 }

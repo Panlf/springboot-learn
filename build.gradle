@@ -33,6 +33,7 @@ subprojects{
 
     dependencies{
         compile libs.springboot
+        compileOnly libs.lombok
     }
    /* task "create-dirs" << {
         sourceSets*.java.srcDirs*.each {

@@ -13,4 +13,5 @@ include 'springboot-learn-aop-multidata'
 include 'springboot-learn-staticftl'
 include 'springboot-learn-elastic-job'
 include 'springboot-learn-share-session'
+include 'springboot-learn-kafka'
 

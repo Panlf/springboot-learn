@@ -4,6 +4,5 @@ dependencies{
     compile libs.mybatis
     compile libs.log4j
     compile libs.druid
-    compileOnly libs.lombok
 }
 

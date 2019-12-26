@@ -2,5 +2,4 @@ dependencies{
     compile libs.freemarker
     compile libs.mongodb
     compile libs.activemq
-    compileOnly libs.lombok
 }

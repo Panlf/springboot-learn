@@ -2,5 +2,4 @@ dependencies {
     compile libs.mysql
     compile libs.elasticjob
     compile libs.mybatis
-    compileOnly libs.lombok
 }
