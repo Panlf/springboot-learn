@@ -57,3 +57,8 @@ SpringBoot整合elastic-job，实现分布式定时任务。
 ### 14、SpringBoot整合Druid Monitor
 
 SpringBoot整合Druid、Postgresql、Mybatis，实现Druid对SQL语句的监控。
+
+### 15、SpringBoot整合Kafka集群
+
+SpringBoot整合Kafka集群，实现生产者、消费者消息的发送、监听。
+
