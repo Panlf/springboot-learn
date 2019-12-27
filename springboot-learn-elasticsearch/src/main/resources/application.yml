@@ -1,0 +1,11 @@
+server:
+  port: 8013
+  servlet:
+    context-path: /elastic
+
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 127.0.0.1:9300

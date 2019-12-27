@@ -35,6 +35,9 @@ ext{
             redis:[
                     "org.springframework.boot:spring-boot-starter-data-redis:${versions.springBootVersion}"
             ],
+            commonspool:[
+                    "org.apache.commons:commons-pool2:2.8.0"
+            ],
             redisson:[
                     "org.redisson:redisson-spring-boot-starter:3.10.7"
             ],
@@ -91,6 +94,11 @@ ext{
                     "org.springframework.session:spring-session-data-redis:${versions.springBootVersion}",
                     "org.apache.commons:commons-pool2:2.7.0"
             ],
-            kafka:["org.springframework.kafka:spring-kafka:${versions.springKafkaVersion}"]
+            kafka:[
+                    "org.springframework.kafka:spring-kafka:${versions.springKafkaVersion}"
+            ],
+            elasticsearch:[
+                    "org.springframework.data:spring-data-elasticsearch:3.2.3.RELEASE"
+            ]
     ]
 }

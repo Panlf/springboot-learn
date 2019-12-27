@@ -14,4 +14,6 @@ include 'springboot-learn-staticftl'
 include 'springboot-learn-elastic-job'
 include 'springboot-learn-share-session'
 include 'springboot-learn-kafka'
+include 'springboot-learn-redis'
+include 'springboot-learn-elasticsearch'
 
