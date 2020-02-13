@@ -16,4 +16,5 @@ include 'springboot-learn-share-session'
 include 'springboot-learn-kafka'
 include 'springboot-learn-redis'
 include 'springboot-learn-elasticsearch'
+include 'springboot-learn-document'
 

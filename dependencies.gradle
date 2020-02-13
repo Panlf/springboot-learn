@@ -99,6 +99,10 @@ ext{
             ],
             elasticsearch:[
                     "org.springframework.data:spring-data-elasticsearch:3.2.3.RELEASE"
+            ],
+            word:[
+                    "org.apache.poi:poi-scratchpad:4.1.1",
+                    "org.apache.poi:poi-ooxml:4.1.1"
             ]
     ]
 }
