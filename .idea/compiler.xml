@@ -36,10 +36,14 @@
       <module name="springboot-learn-kafka_test" target="1.8" />
       <module name="springboot-learn-mail_main" target="1.8" />
       <module name="springboot-learn-mail_test" target="1.8" />
+      <module name="springboot-learn-mongodb_main" target="1.8" />
+      <module name="springboot-learn-mongodb_test" target="1.8" />
       <module name="springboot-learn-mybatis-plus_main" target="1.8" />
       <module name="springboot-learn-mybatis-plus_test" target="1.8" />
       <module name="springboot-learn-redis_main" target="1.8" />
       <module name="springboot-learn-redis_test" target="1.8" />
+      <module name="springboot-learn-security_main" target="1.8" />
+      <module name="springboot-learn-security_test" target="1.8" />
       <module name="springboot-learn-sharding-jdbc_main" target="1.8" />
       <module name="springboot-learn-sharding-jdbc_test" target="1.8" />
       <module name="springboot-learn-share-session_main" target="1.8" />

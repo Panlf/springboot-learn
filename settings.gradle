@@ -17,4 +17,6 @@ include 'springboot-learn-kafka'
 include 'springboot-learn-redis'
 include 'springboot-learn-elasticsearch'
 include 'springboot-learn-document'
+include 'springboot-learn-mongodb'
+include 'springboot-learn-security'
 

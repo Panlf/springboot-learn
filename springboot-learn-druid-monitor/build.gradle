@@ -1,5 +1,5 @@
 dependencies{
-    compile libs.postgresql
+     libs.postgresql
     compile libs.pagehelper
     compile libs.mybatis
     compile libs.log4j

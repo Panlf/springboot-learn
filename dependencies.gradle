@@ -85,7 +85,7 @@ ext{
                     "org.messaginghub:pooled-jms:1.1.0"
             ],
             mongodb:[
-                    "org.springframework.data:spring-data-mongodb:${versions.springBootVersion}"
+                    "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBootVersion}"
             ],
             elasticjob:[
                     "com.dangdang:elastic-job-lite-spring:2.1.5"
@@ -103,6 +103,9 @@ ext{
             word:[
                     "org.apache.poi:poi-scratchpad:4.1.1",
                     "org.apache.poi:poi-ooxml:4.1.1"
+            ],
+            springsecurity:[
+                    "org.springframework.boot:spring-boot-starter-security:${versions.springBootVersion}"
             ]
     ]
 }

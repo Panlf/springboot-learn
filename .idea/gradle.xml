@@ -22,8 +22,10 @@
             <option value="$PROJECT_DIR$/springboot-learn-jwt" />
             <option value="$PROJECT_DIR$/springboot-learn-kafka" />
             <option value="$PROJECT_DIR$/springboot-learn-mail" />
+            <option value="$PROJECT_DIR$/springboot-learn-mongodb" />
             <option value="$PROJECT_DIR$/springboot-learn-mybatis-plus" />
             <option value="$PROJECT_DIR$/springboot-learn-redis" />
+            <option value="$PROJECT_DIR$/springboot-learn-security" />
             <option value="$PROJECT_DIR$/springboot-learn-sharding-jdbc" />
             <option value="$PROJECT_DIR$/springboot-learn-share-session" />
             <option value="$PROJECT_DIR$/springboot-learn-shiro" />
