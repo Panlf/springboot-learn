@@ -1,0 +1,4 @@
+dependencies {
+    compile libs.mongodb
+    compile libs.aop
+}

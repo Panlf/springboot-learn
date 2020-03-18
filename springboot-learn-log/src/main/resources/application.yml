@@ -1,0 +1,11 @@
+server:
+  port: 8012
+  servlet:
+    context-path: /log
+
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: log
