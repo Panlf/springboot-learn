@@ -38,6 +38,9 @@ ext{
             commonspool:[
                     "org.apache.commons:commons-pool2:2.8.0"
             ],
+            commonslang3:[
+                    "org.apache.commons:commons-lang3:3.9"
+            ],
             redisson:[
                     "org.redisson:redisson-spring-boot-starter:3.10.7"
             ],
@@ -106,6 +109,9 @@ ext{
             ],
             springsecurity:[
                     "org.springframework.boot:spring-boot-starter-security:${versions.springBootVersion}"
+            ],
+            solr:[
+                    "org.springframework.boot:spring-boot-starter-data-solr:${versions.springBootVersion}"
             ]
     ]
 }

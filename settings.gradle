@@ -19,4 +19,6 @@ include 'springboot-learn-elasticsearch'
 include 'springboot-learn-document'
 include 'springboot-learn-mongodb'
 include 'springboot-learn-security'
+include 'springboot-learn-log'
+include 'springboot-learn-solr'
 

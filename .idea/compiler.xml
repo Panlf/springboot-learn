@@ -6,6 +6,11 @@
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-learn-aop-multidata_main" target="1.8" />
@@ -34,6 +39,9 @@
       <module name="springboot-learn-jwt_test" target="1.8" />
       <module name="springboot-learn-kafka_main" target="1.8" />
       <module name="springboot-learn-kafka_test" target="1.8" />
+      <module name="springboot-learn-log" target="1.8" />
+      <module name="springboot-learn-log_main" target="1.8" />
+      <module name="springboot-learn-log_test" target="1.8" />
       <module name="springboot-learn-mail_main" target="1.8" />
       <module name="springboot-learn-mail_test" target="1.8" />
       <module name="springboot-learn-mongodb_main" target="1.8" />
@@ -50,6 +58,8 @@
       <module name="springboot-learn-share-session_test" target="1.8" />
       <module name="springboot-learn-shiro_main" target="1.8" />
       <module name="springboot-learn-shiro_test" target="1.8" />
+      <module name="springboot-learn-solr_main" target="1.8" />
+      <module name="springboot-learn-solr_test" target="1.8" />
       <module name="springboot-learn-staticftl_main" target="1.8" />
       <module name="springboot-learn-staticftl_test" target="1.8" />
       <module name="springboot-learn_main" target="1.8" />
