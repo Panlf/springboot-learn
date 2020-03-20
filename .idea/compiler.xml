@@ -62,6 +62,10 @@
       <module name="springboot-learn-solr_test" target="1.8" />
       <module name="springboot-learn-staticftl_main" target="1.8" />
       <module name="springboot-learn-staticftl_test" target="1.8" />
+      <module name="springboot-learn-threadlocal_main" target="1.8" />
+      <module name="springboot-learn-threadlocal_test" target="1.8" />
+      <module name="springboot-learn-websocket_main" target="1.8" />
+      <module name="springboot-learn-websocket_test" target="1.8" />
       <module name="springboot-learn_main" target="1.8" />
       <module name="springboot-learn_test" target="1.8" />
     </bytecodeTargetLevel>

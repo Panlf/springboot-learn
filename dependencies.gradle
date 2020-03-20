@@ -112,6 +112,10 @@ ext{
             ],
             solr:[
                     "org.springframework.boot:spring-boot-starter-data-solr:${versions.springBootVersion}"
+            ],
+            websocket:[
+                    "org.springframework.boot:spring-boot-starter-websocket:${versions.springBootVersion}",
+                    "org.springframework.boot:spring-boot-starter-reactor-netty:${versions.springBootVersion}"
             ]
     ]
 }

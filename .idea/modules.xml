@@ -69,6 +69,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-staticftl.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-staticftl.iml" group="springboot-learn-staticftl" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-staticftl/springboot-learn-staticftl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-staticftl/springboot-learn-staticftl_main.iml" group="springboot-learn-staticftl" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-staticftl/springboot-learn-staticftl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-staticftl/springboot-learn-staticftl_test.iml" group="springboot-learn-staticftl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-threadlocal.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-threadlocal.iml" group="springboot-learn-threadlocal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-threadlocal/springboot-learn-threadlocal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-threadlocal/springboot-learn-threadlocal_main.iml" group="springboot-learn-threadlocal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-threadlocal/springboot-learn-threadlocal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-threadlocal/springboot-learn-threadlocal_test.iml" group="springboot-learn-threadlocal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-websocket.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-websocket.iml" group="springboot-learn-websocket" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-websocket/springboot-learn-websocket_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-websocket/springboot-learn-websocket_main.iml" group="springboot-learn-websocket" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-learn-websocket/springboot-learn-websocket_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-learn-websocket/springboot-learn-websocket_test.iml" group="springboot-learn-websocket" />
     </modules>
   </component>
 </project>

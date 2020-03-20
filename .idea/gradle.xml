@@ -32,6 +32,8 @@
             <option value="$PROJECT_DIR$/springboot-learn-shiro" />
             <option value="$PROJECT_DIR$/springboot-learn-solr" />
             <option value="$PROJECT_DIR$/springboot-learn-staticftl" />
+            <option value="$PROJECT_DIR$/springboot-learn-threadlocal" />
+            <option value="$PROJECT_DIR$/springboot-learn-websocket" />
           </set>
         </option>
       </GradleProjectSettings>

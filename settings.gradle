@@ -21,4 +21,6 @@ include 'springboot-learn-mongodb'
 include 'springboot-learn-security'
 include 'springboot-learn-log'
 include 'springboot-learn-solr'
+include 'springboot-learn-threadlocal'
+include 'springboot-learn-websocket'
 

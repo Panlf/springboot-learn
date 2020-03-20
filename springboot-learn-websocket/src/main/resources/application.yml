@@ -1,0 +1,5 @@
+server:
+  port: 8026
+sprnig:
+  thymeleaf:
+    cache: false
