@@ -2,10 +2,12 @@
   <library name="Gradle: com.github.jsqlparser:jsqlparser:1.2">
     <CLASSES>
       <root url="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/com.github.jsqlparser/jsqlparser/1.2/bc8a4e852bde9114b97fda9a3f73c8ae2b7748b9/jsqlparser-1.2.jar!/" />
+      <root url="jar://D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/com.github.jsqlparser/jsqlparser/1.2/bc8a4e852bde9114b97fda9a3f73c8ae2b7748b9/jsqlparser-1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/com.github.jsqlparser/jsqlparser/1.2/d34998ef80aed57ecd22a0a03a4dd526f89f328e/jsqlparser-1.2-sources.jar!/" />
+      <root url="jar://D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/com.github.jsqlparser/jsqlparser/1.2/d34998ef80aed57ecd22a0a03a4dd526f89f328e/jsqlparser-1.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

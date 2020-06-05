@@ -1,4 +1,4 @@
 dependencies {
-    compile libs.websocket
-    compile libs.thymeleaf
+    implementation libs.websocket
+    implementation libs.thymeleaf
 }

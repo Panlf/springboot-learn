@@ -1,8 +1,8 @@
 dependencies{
-     libs.postgresql
-    compile libs.pagehelper
-    compile libs.mybatis
-    compile libs.log4j
-    compile libs.druid
+    implementation libs.postgresql
+    implementation libs.pagehelper
+    implementation libs.mybatis
+    implementation libs.log4j
+    implementation libs.druid
 }
 

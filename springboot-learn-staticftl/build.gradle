@@ -1,5 +1,5 @@
 dependencies{
-    compile libs.freemarker
-    compile libs.mongodb
-    compile libs.activemq
+    implementation libs.freemarker
+    implementation libs.mongodb
+    implementation libs.activemq
 }

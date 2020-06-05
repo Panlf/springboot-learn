@@ -1,6 +1,6 @@
 dependencies {
-    compile libs.thymeleaf
-    compile libs.mybatis
-    compile libs.mysql
-    compile libs.springsecurity
+    implementation libs.thymeleaf
+    implementation libs.mybatis
+    implementation libs.mysql
+    implementation libs.springsecurity
 }

@@ -1,5 +1,5 @@
 dependencies{
-    compile libs.mysql
-    compile libs.aop
-    compile libs.jdbc
+    implementation libs.mysql
+    implementation libs.aop
+    implementation libs.jdbc
 }

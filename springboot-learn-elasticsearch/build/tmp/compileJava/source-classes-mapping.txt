@@ -1,0 +1,12 @@
+com/plf/learn/elasticsearch/controller/BookController.java
+ com.plf.learn.elasticsearch.controller.BookController
+com/plf/learn/elasticsearch/service/BookService.java
+ com.plf.learn.elasticsearch.service.BookService
+com/plf/learn/elasticsearch/ElasticSearchApplication.java
+ com.plf.learn.elasticsearch.ElasticSearchApplication
+com/plf/learn/elasticsearch/bean/Book.java
+ com.plf.learn.elasticsearch.bean.Book
+com/plf/learn/elasticsearch/repository/BookRepository.java
+ com.plf.learn.elasticsearch.repository.BookRepository
+com/plf/learn/elasticsearch/service/IndexService.java
+ com.plf.learn.elasticsearch.service.IndexService

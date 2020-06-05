@@ -6,7 +6,7 @@ allprojects {
     apply plugin: 'idea'
 
     //指定项目版本号和group
-    version = '0.0.1'
+    version = '0.1.0'
     group = 'com.plf.learn'
 
     idea.module.iml {
@@ -28,21 +28,15 @@ subprojects{
     targetCompatibility = 1.8
 
     repositories {
-        mavenCentral()
+        jcenter()
     }
 
-    dependencies{
-        compile libs.springboot
-        compileOnly libs.lombok
+    dependencies {
+        implementation libs.springboot
+        //必须如下引入,不然启动报错
+        implementation libs.lombok
+        annotationProcessor libs.lombok
     }
-   /* task "create-dirs" << {
-        sourceSets*.java.srcDirs*.each {
-            it.mkdirs()
-        }
-        sourcScts*.resources.srcDirs*.each{
-            it.midirs()
-        }
-    }*/
 
     [compileJava,compileTestJava]*.options*.encoding = 'UTF-8'
 }

@@ -2,10 +2,12 @@
   <library name="Gradle: org.freemarker:freemarker:2.3.9">
     <CLASSES>
       <root url="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.9/db28580c15e4b54a2329a019c6427bec808070e/freemarker-2.3.9.jar!/" />
+      <root url="jar://D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.9/db28580c15e4b54a2329a019c6427bec808070e/freemarker-2.3.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.9/3e33e6ef0c3677b97d56a1e15b35c6886660b40c/freemarker-2.3.9-sources.jar!/" />
+      <root url="jar://D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.9/3e33e6ef0c3677b97d56a1e15b35c6886660b40c/freemarker-2.3.9-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

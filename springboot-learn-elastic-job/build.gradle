@@ -1,5 +1,5 @@
 dependencies {
-    compile libs.mysql
-    compile libs.elasticjob
-    compile libs.mybatis
+    implementation libs.mysql
+    implementation libs.elasticjob
+    implementation libs.mybatis
 }

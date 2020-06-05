@@ -1,4 +1,4 @@
 dependencies{
-    compile libs.mysql
-    compile libs.mybatisplus
+    implementation libs.mysql
+    implementation libs.mybatisplus
 }

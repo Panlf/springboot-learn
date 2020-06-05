@@ -1,4 +1,4 @@
 dependencies{
-    compile libs.redis
-    compile libs.springsession
+    implementation libs.redis
+    implementation libs.springsession
 }

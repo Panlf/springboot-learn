@@ -1,4 +1,4 @@
 dependencies{
-    compile libs.redis
-    compile libs.commonspool
+    implementation libs.redis
+    implementation libs.commonspool
 }

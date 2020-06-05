@@ -1,5 +1,5 @@
 dependencies{
-    compile libs.redis
-    compile libs.redisson
-    compile libs.curator
+    implementation libs.redis
+    implementation libs.redisson
+    implementation libs.curator
 }

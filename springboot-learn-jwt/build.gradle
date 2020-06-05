@@ -1,6 +1,6 @@
 dependencies{
-    compile libs.jwt
-    compile libs.mysql
-    compile libs.jpa
-    compile libs.redis
+    implementation libs.jwt
+    implementation libs.mysql
+    implementation libs.jpa
+    implementation libs.redis
 }

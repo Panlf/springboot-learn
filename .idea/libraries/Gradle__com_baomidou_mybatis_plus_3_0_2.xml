@@ -2,10 +2,12 @@
   <library name="Gradle: com.baomidou:mybatis-plus:3.0.2">
     <CLASSES>
       <root url="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/com.baomidou/mybatis-plus/3.0.2/614733fbff480c2ecc5492fd443cd688bba4c76f/mybatis-plus-3.0.2.jar!/" />
+      <root url="jar://D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/com.baomidou/mybatis-plus/3.0.2/614733fbff480c2ecc5492fd443cd688bba4c76f/mybatis-plus-3.0.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://E:/MyApps/gradle/gradle-4.6/caches/modules-2/files-2.1/com.baomidou/mybatis-plus/3.0.2/2c74e6799f49d784f280ccf0199a8335ccae3ccc/mybatis-plus-3.0.2-sources.jar!/" />
+      <root url="jar://D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/com.baomidou/mybatis-plus/3.0.2/2c74e6799f49d784f280ccf0199a8335ccae3ccc/mybatis-plus-3.0.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
