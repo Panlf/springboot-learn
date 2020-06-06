@@ -6,6 +6,36 @@
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.20/ac76d9b956045631d1561a09289cbf472e077c01/lombok-1.16.20.jar" />
+        </processorPath>
+        <module name="springboot-learn.springboot-learn-jpa.main" />
+        <module name="springboot-learn.springboot-learn-mail.main" />
+        <module name="springboot-learn.springboot-learn-threadlocal.main" />
+        <module name="springboot-learn.springboot-learn-jetcache.main" />
+        <module name="springboot-learn.springboot-learn-druid-monitor.main" />
+        <module name="springboot-learn.springboot-learn-mongodb.main" />
+        <module name="springboot-learn.springboot-learn-log.main" />
+        <module name="springboot-learn.springboot-learn-kafka.main" />
+        <module name="springboot-learn.springboot-learn-shiro.main" />
+        <module name="springboot-learn.springboot-learn-websocket.main" />
+        <module name="springboot-learn.springboot-learn-elastic-job.main" />
+        <module name="springboot-learn.springboot-learn-distributed-lock.main" />
+        <module name="springboot-learn.springboot-learn-elasticsearch.main" />
+        <module name="springboot-learn.springboot-learn-sharding-jdbc.main" />
+        <module name="springboot-learn.springboot-learn-aop-multidata.main" />
+        <module name="springboot-learn.springboot-learn-share-session.main" />
+        <module name="springboot-learn.springboot-learn-document.main" />
+        <module name="springboot-learn.springboot-learn-redis.main" />
+        <module name="springboot-learn.springboot-learn-staticftl.main" />
+        <module name="springboot-learn.springboot-learn-custom-event.main" />
+        <module name="springboot-learn.springboot-learn-mybatis-plus.main" />
+        <module name="springboot-learn.springboot-learn-security.main" />
+        <module name="springboot-learn.springboot-learn-jwt.main" />
+        <module name="springboot-learn.springboot-learn-solr.main" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.plf.learn.springboot-learn-aop-multidata" target="1.8" />

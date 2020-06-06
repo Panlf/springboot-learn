@@ -32,89 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2620f058-9470-49f5-9648-5de56b35f1e8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_annotation_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_annotation_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_boot_starter_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_boot_starter_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_core_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_core_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_extension_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_extension_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_generator_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_generator_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_2_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_velocity_velocity_engine_core_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_2_0_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-custom-event/springboot-learn-custom-event_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-jpa/springboot-learn-jpa_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-mail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-mail/springboot-learn-mail_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-mail/springboot-learn-mail_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus/springboot-learn-mybatis-plus_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn-mybatis-plus/springboot-learn-mybatis-plus_test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-aop-multidata/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-aop-multidata/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-distributed-lock/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-distributed-lock/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-document/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-document/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-druid-monitor/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-druid-monitor/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-elastic-job/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-elastic-job/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-elasticsearch/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-elasticsearch/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-jetcache/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-jetcache/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-jpa/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-jwt/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-jwt/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-kafka/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-kafka/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-log/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-log/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-mail/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-mail/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-mongodb/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-mongodb/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-redis/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-redis/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-security/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-security/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-sharding-jdbc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-sharding-jdbc/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-share-session/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-share-session/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-shiro/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-shiro/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-solr/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-solr/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-staticftl/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-staticftl/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-threadlocal/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-learn-websocket/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-websocket/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,58 +104,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot-learn" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-threadlocal" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -589,6 +456,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-learn.springboot-learn-solr.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.solr.SolrApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootDocumentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-learn.springboot-learn-document.main" />
       <extension name="coverage">
@@ -664,6 +538,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootMailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-learn.springboot-learn-mail.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.mail.SpringBootMailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="com.plf.learn.springboot-learn-druid-monitor.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.monitor.SpringBootMonitorApplication" />
@@ -726,6 +607,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-learn.springboot-learn-websocket.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.websocket.WebSocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -754,6 +642,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [build]" />
+      <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [clean]" />
       <item itemvalue="JUnit.BuyTest.ticketTest" />
       <item itemvalue="Spring Boot.SpringBootShareSessionApplication" />
       <item itemvalue="Spring Boot.SpringBootEventApplication" />
@@ -776,9 +666,10 @@
       <item itemvalue="Spring Boot.SpringBootStaticFtlApplication" />
       <item itemvalue="Spring Boot.ThreadLocalApplication (1)" />
       <item itemvalue="Spring Boot.SpringBootDocumentApplication (1)" />
-      <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [build]" />
-      <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [clean]" />
       <item itemvalue="Spring Boot.SpringBootJwtApplication (1)" />
+      <item itemvalue="Spring Boot.SpringBootMailApplication" />
+      <item itemvalue="Spring Boot.SolrApplication" />
+      <item itemvalue="Spring Boot.WebSocketApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -861,7 +752,8 @@
       <workItem from="1591327111186" duration="434000" />
       <workItem from="1591327838803" duration="1403000" />
       <workItem from="1591329427158" duration="1151000" />
-      <workItem from="1591330648565" duration="4960000" />
+      <workItem from="1591330648565" duration="5643000" />
+      <workItem from="1591370633389" duration="1948000" />
     </task>
     <servers />
   </component>
@@ -885,38 +777,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591330557301" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1591335345500">
+    <state width="673" height="179" key="GridCell.Tab.0.bottom" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591335345500" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1591335345499">
+    <state width="673" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
+    <state width="673" height="179" key="GridCell.Tab.0.center" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591335345499" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1591335345499">
+    <state width="673" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
+    <state width="673" height="179" key="GridCell.Tab.0.left" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591335345499" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1591335345500">
+    <state width="673" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
+    <state width="673" height="179" key="GridCell.Tab.0.right" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591335345500" />
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1591335345501">
+    <state width="673" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
+    <state width="673" height="179" key="GridCell.Tab.1.bottom" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591335345501" />
-    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1591335345500">
+    <state width="673" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
+    <state width="673" height="179" key="GridCell.Tab.1.center" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591335345500" />
-    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1591335345500">
+    <state width="673" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
+    <state width="673" height="179" key="GridCell.Tab.1.left" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591335345500" />
-    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1591335345501">
+    <state width="673" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
+    <state width="673" height="179" key="GridCell.Tab.1.right" timestamp="1591416511140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591335345501" />
+    <state width="673" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1591329644020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

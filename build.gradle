@@ -32,9 +32,9 @@ subprojects{
     }
 
     dependencies {
-        implementation libs.springboot
+        implementation  libs.springboot
         //必须如下引入,不然启动报错
-        implementation libs.lombok
+        compileOnly libs.lombok
         annotationProcessor libs.lombok
     }
 
