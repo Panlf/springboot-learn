@@ -14,10 +14,11 @@
         <module name="springboot-learn.springboot-learn-jpa.main" />
         <module name="springboot-learn.springboot-learn-mail.main" />
         <module name="springboot-learn.springboot-learn-threadlocal.main" />
-        <module name="springboot-learn.springboot-learn-jetcache.main" />
         <module name="springboot-learn.springboot-learn-druid-monitor.main" />
         <module name="springboot-learn.springboot-learn-mongodb.main" />
+        <module name="springboot-learn.springboot-learn-dataway.main" />
         <module name="springboot-learn.springboot-learn-log.main" />
+        <module name="springboot-learn.springboot-learn-custom-event.main" />
         <module name="springboot-learn.springboot-learn-kafka.main" />
         <module name="springboot-learn.springboot-learn-shiro.main" />
         <module name="springboot-learn.springboot-learn-websocket.main" />
@@ -30,10 +31,10 @@
         <module name="springboot-learn.springboot-learn-document.main" />
         <module name="springboot-learn.springboot-learn-redis.main" />
         <module name="springboot-learn.springboot-learn-staticftl.main" />
-        <module name="springboot-learn.springboot-learn-custom-event.main" />
+        <module name="springboot-learn.springboot-learn-jwt.main" />
         <module name="springboot-learn.springboot-learn-mybatis-plus.main" />
         <module name="springboot-learn.springboot-learn-security.main" />
-        <module name="springboot-learn.springboot-learn-jwt.main" />
+        <module name="springboot-learn.springboot-learn-jetcache.main" />
         <module name="springboot-learn.springboot-learn-solr.main" />
       </profile>
     </annotationProcessing>
@@ -161,6 +162,9 @@
       <module name="springboot-learn.springboot-learn-custom-event" target="1.8" />
       <module name="springboot-learn.springboot-learn-custom-event.main" target="1.8" />
       <module name="springboot-learn.springboot-learn-custom-event.test" target="1.8" />
+      <module name="springboot-learn.springboot-learn-dataway" target="1.8" />
+      <module name="springboot-learn.springboot-learn-dataway.main" target="1.8" />
+      <module name="springboot-learn.springboot-learn-dataway.test" target="1.8" />
       <module name="springboot-learn.springboot-learn-distributed-lock" target="1.8" />
       <module name="springboot-learn.springboot-learn-distributed-lock.main" target="1.8" />
       <module name="springboot-learn.springboot-learn-distributed-lock.test" target="1.8" />

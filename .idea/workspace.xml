@@ -32,8 +32,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2620f058-9470-49f5-9648-5de56b35f1e8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/springboot-learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +104,39 @@
         <task path="$PROJECT_DIR$/springboot-learn-threadlocal">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/springboot-learn-dataway">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot-learn" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot-learn" type="f1a62948:ProjectNode" />
+                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot-learn" type="f1a62948:ProjectNode" />
+                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot-learn" type="f1a62948:ProjectNode" />
+                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springboot-learn" type="f1a62948:ProjectNode" />
+                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -203,19 +236,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/springboot-learn-threadlocal/src/main/java/com/plf/learn/thread" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-learn-dataway/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-staticftl\src\main\resources\static\css" />
-      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-sharding-jdbc\src\main\resources\sql" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Technology\Idea\ideaProject\springboot-learn\springboot-learn-dataway\src\main\resources" />
+      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-threadlocal\src\main\resources" />
+      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-threadlocal\src\main\java\com\plf\learn\thread\interceptor" />
+      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-security\src\main\java\com\plf\learn\security\handler" />
+      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-security\src\main\java\com\plf\learn\security\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.plf.learn.share.session" />
@@ -223,15 +259,12 @@
       <recent name="com.plf.learn.lock.redis" />
       <recent name="com.plf.learn.lock" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-threadlocal\src\main\resources" />
-      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-threadlocal\src\main\java\com\plf\learn\thread\interceptor" />
-      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-security\src\main\java\com\plf\learn\security\handler" />
-      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-security\src\main\java\com\plf\learn\security\config" />
-      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-security\src\main\resources\templates" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-staticftl\src\main\resources\static\css" />
+      <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-sharding-jdbc\src\main\resources\sql" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ThreadLocalApplication (1)">
+  <component name="RunManager" selected="Spring Boot.SpringBootDatawayApplication">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -463,6 +496,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootDatawayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-learn.springboot-learn-dataway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.dataway.SpringBootDatawayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootDocumentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-learn.springboot-learn-document.main" />
       <extension name="coverage">
@@ -664,12 +704,13 @@
       <item itemvalue="Spring Boot.SecurityApplication" />
       <item itemvalue="Spring Boot.SpringBootShiroApplication" />
       <item itemvalue="Spring Boot.SpringBootStaticFtlApplication" />
-      <item itemvalue="Spring Boot.ThreadLocalApplication (1)" />
-      <item itemvalue="Spring Boot.SpringBootDocumentApplication (1)" />
-      <item itemvalue="Spring Boot.SpringBootJwtApplication (1)" />
       <item itemvalue="Spring Boot.SpringBootMailApplication" />
       <item itemvalue="Spring Boot.SolrApplication" />
       <item itemvalue="Spring Boot.WebSocketApplication" />
+      <item itemvalue="Spring Boot.ThreadLocalApplication (1)" />
+      <item itemvalue="Spring Boot.SpringBootDocumentApplication (1)" />
+      <item itemvalue="Spring Boot.SpringBootJwtApplication (1)" />
+      <item itemvalue="Spring Boot.SpringBootDatawayApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -753,7 +794,8 @@
       <workItem from="1591327838803" duration="1403000" />
       <workItem from="1591329427158" duration="1151000" />
       <workItem from="1591330648565" duration="5643000" />
-      <workItem from="1591370633389" duration="1948000" />
+      <workItem from="1591370633389" duration="3555000" />
+      <workItem from="1591577134294" duration="4155000" />
     </task>
     <servers />
   </component>
@@ -773,6 +815,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="565" y="226" key="#Notifications" timestamp="1591577143547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="565" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1591577143547" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1591579694990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591579694990" />
     <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1591330557301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -809,10 +859,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1591329644020">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1591577211201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591329644020" />
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591577211201" />
+    <state x="24" y="27" key="new project wizard" timestamp="1591577889640">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="24" y="27" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1591577889640" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

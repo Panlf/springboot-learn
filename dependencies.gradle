@@ -116,6 +116,10 @@ ext{
             websocket:[
                     "org.springframework.boot:spring-boot-starter-websocket:${versions.springBootVersion}",
                     "org.springframework.boot:spring-boot-starter-reactor-netty:${versions.springBootVersion}"
+            ],
+            dataway:[
+                    "net.hasor:hasor-dataway:4.1.8",
+                    "net.hasor:hasor-spring:4.1.8"
             ]
     ]
 }

@@ -1,0 +1,6 @@
+dependencies {
+    implementation libs.dataway
+    implementation libs.druid
+    implementation libs.mysql
+    implementation libs.jdbc
+}
