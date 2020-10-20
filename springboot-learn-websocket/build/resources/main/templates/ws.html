@@ -47,7 +47,8 @@
 
                 showResponse(JSON.parse(respnose.body).content);
             });
-            //4通过stompClient.subscribe（）订阅服务器的目标是'/user/' + userId + '/msg'接收一对一的推送消息,其中userId由服务端传递过来,用于表示唯一的用户,通过此值将消息精确推送给一个用户
+            //4通过stompClient.subscribe（）订阅服务器的目标是'/user/' + userId + '/msg'接收一对一的推送消息,
+            // 其中userId由服务端传递过来,用于表示唯一的用户,通过此值将消息精确推送给一个用户
             stompClient.subscribe('/user/' + userId + '/msg', function(respnose){
                 console.log(respnose);
                 showResponse1(JSON.parse(respnose.body).content);
@@ -66,7 +67,8 @@
 
     function sendName() {
         var name = $('#name').val();
-        //通过stompClient.send（）向地址为"/welcome"的服务器地址发起请求，与@MessageMapping里的地址对应。因为我们配置了registry.setApplicationDestinationPrefixes(Constant.WEBSOCKETPATHPERFIX);所以需要增加前缀/ws-push/
+        //通过stompClient.send（）向地址为"/welcome"的服务器地址发起请求，与@MessageMapping里的地址对应。
+        //还需要加前缀app
         stompClient.send("/app/welcome", {}, JSON.stringify({ 'name': name }));
     }
 

@@ -1,0 +1,10 @@
+com/plf/learn/mongodb/service/CommentService.java
+ com.plf.learn.mongodb.service.CommentService
+com/plf/learn/mongodb/bean/Comment.java
+ com.plf.learn.mongodb.bean.Comment
+com/plf/learn/mongodb/MongoDBApplication.java
+ com.plf.learn.mongodb.MongoDBApplication
+com/plf/learn/mongodb/repository/CommentRepository.java
+ com.plf.learn.mongodb.repository.CommentRepository
+com/plf/learn/mongodb/controller/CommentController.java
+ com.plf.learn.mongodb.controller.CommentController

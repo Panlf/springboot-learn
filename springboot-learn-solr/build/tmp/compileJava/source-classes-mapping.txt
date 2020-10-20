@@ -1,0 +1,8 @@
+com/plf/learn/solr/service/SolrService.java
+ com.plf.learn.solr.service.SolrService
+com/plf/learn/solr/entity/Worker.java
+ com.plf.learn.solr.entity.Worker
+com/plf/learn/solr/SolrApplication.java
+ com.plf.learn.solr.SolrApplication
+com/plf/learn/solr/controller/SolrController.java
+ com.plf.learn.solr.controller.SolrController

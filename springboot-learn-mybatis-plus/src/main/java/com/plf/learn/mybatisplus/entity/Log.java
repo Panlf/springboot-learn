@@ -2,10 +2,7 @@ package com.plf.learn.mybatisplus.entity;
 
 import java.util.Date;
 
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 @TableName
@@ -20,8 +17,11 @@ public class Log {
 	@TableField
 	private String content;
 	
-	@TableField
+	@TableField(fill = FieldFill.INSERT)
 	private Date createtime;
+
+	@TableField(fill=FieldFill.UPDATE)
+	private Date updatetime;
 	
 	@TableField
 	@TableLogic

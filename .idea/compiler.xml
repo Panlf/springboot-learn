@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/springboot-learn-jpa/src/test/java/com/plf/learn/jpa/test/ControllerRestTest.java" />
-    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Gradle Imported" enabled="true">
@@ -11,228 +8,71 @@
         <processorPath useClasspath="false">
           <entry name="D:/Repository/gradle-6.5/data/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.20/ac76d9b956045631d1561a09289cbf472e077c01/lombok-1.16.20.jar" />
         </processorPath>
-        <module name="springboot-learn.springboot-learn-jpa.main" />
-        <module name="springboot-learn.springboot-learn-mail.main" />
-        <module name="springboot-learn.springboot-learn-threadlocal.main" />
-        <module name="springboot-learn.springboot-learn-druid-monitor.main" />
-        <module name="springboot-learn.springboot-learn-mongodb.main" />
-        <module name="springboot-learn.springboot-learn-dataway.main" />
-        <module name="springboot-learn.springboot-learn-log.main" />
-        <module name="springboot-learn.springboot-learn-custom-event.main" />
-        <module name="springboot-learn.springboot-learn-kafka.main" />
-        <module name="springboot-learn.springboot-learn-shiro.main" />
-        <module name="springboot-learn.springboot-learn-websocket.main" />
-        <module name="springboot-learn.springboot-learn-elastic-job.main" />
-        <module name="springboot-learn.springboot-learn-distributed-lock.main" />
-        <module name="springboot-learn.springboot-learn-elasticsearch.main" />
-        <module name="springboot-learn.springboot-learn-sharding-jdbc.main" />
-        <module name="springboot-learn.springboot-learn-aop-multidata.main" />
-        <module name="springboot-learn.springboot-learn-share-session.main" />
-        <module name="springboot-learn.springboot-learn-document.main" />
-        <module name="springboot-learn.springboot-learn-redis.main" />
-        <module name="springboot-learn.springboot-learn-staticftl.main" />
-        <module name="springboot-learn.springboot-learn-jwt.main" />
-        <module name="springboot-learn.springboot-learn-mybatis-plus.main" />
-        <module name="springboot-learn.springboot-learn-security.main" />
-        <module name="springboot-learn.springboot-learn-jetcache.main" />
-        <module name="springboot-learn.springboot-learn-solr.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-druid-monitor.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-jetcache.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-mail.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-share-session.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-jwt.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-staticftl.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-kafka.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-redis.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-elasticsearch.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-jpa.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-mongodb.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-aop-multidata.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-custom-event.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-mybatis-plus.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-security.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-distributed-lock.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-websocket.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-solr.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-shiro.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-document.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-sharding-jdbc.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-dataway.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-elastic-job.main~2" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-log.main" />
+        <module name="com.plf.learn.springboot-learn.springboot-learn-threadlocal.main~2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="com.plf.learn.springboot-learn-aop-multidata" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-aop-multidata.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-aop-multidata.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-distributed-lock" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-distributed-lock.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-distributed-lock.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-document" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-document.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-document.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-druid-monitor" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-druid-monitor.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-druid-monitor.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-elastic-job" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-elastic-job.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-elastic-job.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-elasticsearch" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-elasticsearch.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-elasticsearch.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-jetcache" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-jetcache.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-jetcache.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-jwt" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-jwt.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-jwt.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-kafka" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-kafka.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-kafka.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-log" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-log.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-log.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-mongodb" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-mongodb.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-mongodb.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-redis" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-redis.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-redis.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-security" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-security.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-security.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-sharding-jdbc" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-sharding-jdbc.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-sharding-jdbc.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-share-session" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-share-session.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-share-session.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-shiro" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-shiro.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-shiro.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-solr" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-solr.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-solr.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-staticftl" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-staticftl.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-staticftl.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-threadlocal" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-threadlocal.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-threadlocal.test" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-websocket" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-websocket.main" target="1.8" />
-      <module name="com.plf.learn.springboot-learn-websocket.test" target="1.8" />
-      <module name="springboot-learn-aop-multidata_main" target="1.8" />
-      <module name="springboot-learn-aop-multidata_test" target="1.8" />
-      <module name="springboot-learn-custom-event" target="1.8" />
-      <module name="springboot-learn-custom-event__main" target="1.8" />
-      <module name="springboot-learn-custom-event__test" target="1.8" />
-      <module name="springboot-learn-custom-event_main" target="1.8" />
-      <module name="springboot-learn-custom-event_test" target="1.8" />
-      <module name="springboot-learn-distributed-lock__main" target="1.8" />
-      <module name="springboot-learn-distributed-lock__test" target="1.8" />
-      <module name="springboot-learn-distributed-lock_main" target="1.8" />
-      <module name="springboot-learn-distributed-lock_test" target="1.8" />
-      <module name="springboot-learn-document_main" target="1.8" />
-      <module name="springboot-learn-document_test" target="1.8" />
-      <module name="springboot-learn-druid-monitor_main" target="1.8" />
-      <module name="springboot-learn-druid-monitor_test" target="1.8" />
-      <module name="springboot-learn-elastic-job_main" target="1.8" />
-      <module name="springboot-learn-elastic-job_test" target="1.8" />
-      <module name="springboot-learn-elasticsearch_main" target="1.8" />
-      <module name="springboot-learn-elasticsearch_test" target="1.8" />
-      <module name="springboot-learn-jetcache_main" target="1.8" />
-      <module name="springboot-learn-jetcache_test" target="1.8" />
-      <module name="springboot-learn-jpa" target="1.8" />
-      <module name="springboot-learn-jpa_main" target="1.8" />
-      <module name="springboot-learn-jpa_test" target="1.8" />
-      <module name="springboot-learn-jwt_main" target="1.8" />
-      <module name="springboot-learn-jwt_test" target="1.8" />
-      <module name="springboot-learn-kafka_main" target="1.8" />
-      <module name="springboot-learn-kafka_test" target="1.8" />
-      <module name="springboot-learn-log" target="1.8" />
-      <module name="springboot-learn-log_main" target="1.8" />
-      <module name="springboot-learn-log_test" target="1.8" />
-      <module name="springboot-learn-mail" target="1.8" />
-      <module name="springboot-learn-mail_main" target="1.8" />
-      <module name="springboot-learn-mail_test" target="1.8" />
-      <module name="springboot-learn-mongodb_main" target="1.8" />
-      <module name="springboot-learn-mongodb_test" target="1.8" />
-      <module name="springboot-learn-mybatis-plus" target="1.8" />
-      <module name="springboot-learn-mybatis-plus_main" target="1.8" />
-      <module name="springboot-learn-mybatis-plus_test" target="1.8" />
-      <module name="springboot-learn-redis_main" target="1.8" />
-      <module name="springboot-learn-redis_test" target="1.8" />
-      <module name="springboot-learn-security_main" target="1.8" />
-      <module name="springboot-learn-security_test" target="1.8" />
-      <module name="springboot-learn-sharding-jdbc_main" target="1.8" />
-      <module name="springboot-learn-sharding-jdbc_test" target="1.8" />
-      <module name="springboot-learn-share-session_main" target="1.8" />
-      <module name="springboot-learn-share-session_test" target="1.8" />
-      <module name="springboot-learn-shiro_main" target="1.8" />
-      <module name="springboot-learn-shiro_test" target="1.8" />
-      <module name="springboot-learn-solr_main" target="1.8" />
-      <module name="springboot-learn-solr_test" target="1.8" />
-      <module name="springboot-learn-staticftl_main" target="1.8" />
-      <module name="springboot-learn-staticftl_test" target="1.8" />
-      <module name="springboot-learn-threadlocal_main" target="1.8" />
-      <module name="springboot-learn-threadlocal_test" target="1.8" />
-      <module name="springboot-learn-websocket_main" target="1.8" />
-      <module name="springboot-learn-websocket_test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-aop-multidata" target="1.8" />
-      <module name="springboot-learn.springboot-learn-aop-multidata.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-aop-multidata.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-custom-event" target="1.8" />
-      <module name="springboot-learn.springboot-learn-custom-event.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-custom-event.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-dataway" target="1.8" />
-      <module name="springboot-learn.springboot-learn-dataway.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-dataway.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-distributed-lock" target="1.8" />
-      <module name="springboot-learn.springboot-learn-distributed-lock.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-distributed-lock.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-document" target="1.8" />
-      <module name="springboot-learn.springboot-learn-document.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-document.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-druid-monitor" target="1.8" />
-      <module name="springboot-learn.springboot-learn-druid-monitor.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-druid-monitor.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-elastic-job" target="1.8" />
-      <module name="springboot-learn.springboot-learn-elastic-job.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-elastic-job.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-elasticsearch" target="1.8" />
-      <module name="springboot-learn.springboot-learn-elasticsearch.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-elasticsearch.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jetcache" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jetcache.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jetcache.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jpa" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jpa.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jpa.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jwt" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jwt.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-jwt.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-kafka" target="1.8" />
-      <module name="springboot-learn.springboot-learn-kafka.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-kafka.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-log" target="1.8" />
-      <module name="springboot-learn.springboot-learn-log.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-log.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mail" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mail.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mail.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mongodb" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mongodb.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mongodb.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mybatis-plus" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mybatis-plus.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-mybatis-plus.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-redis" target="1.8" />
-      <module name="springboot-learn.springboot-learn-redis.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-redis.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-security" target="1.8" />
-      <module name="springboot-learn.springboot-learn-security.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-security.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-sharding-jdbc" target="1.8" />
-      <module name="springboot-learn.springboot-learn-sharding-jdbc.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-sharding-jdbc.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-share-session" target="1.8" />
-      <module name="springboot-learn.springboot-learn-share-session.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-share-session.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-shiro" target="1.8" />
-      <module name="springboot-learn.springboot-learn-shiro.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-shiro.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-solr" target="1.8" />
-      <module name="springboot-learn.springboot-learn-solr.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-solr.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-staticftl" target="1.8" />
-      <module name="springboot-learn.springboot-learn-staticftl.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-staticftl.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-threadlocal" target="1.8" />
-      <module name="springboot-learn.springboot-learn-threadlocal.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-threadlocal.test" target="1.8" />
-      <module name="springboot-learn.springboot-learn-websocket" target="1.8" />
-      <module name="springboot-learn.springboot-learn-websocket.main" target="1.8" />
-      <module name="springboot-learn.springboot-learn-websocket.test" target="1.8" />
-      <module name="springboot-learn_main" target="1.8" />
-      <module name="springboot-learn_test" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-aop-multidata.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-aop-multidata.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-custom-event.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-custom-event.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-dataway.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-dataway.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-distributed-lock.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-distributed-lock.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-document.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-document.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-druid-monitor.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-druid-monitor.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-elastic-job.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-elastic-job.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-elasticsearch.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-elasticsearch.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-jetcache.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-jetcache.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-jpa.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-jpa.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-jwt.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-jwt.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-kafka.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-log.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-mail.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-mongodb.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-mybatis-plus.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-redis.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-security.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-sharding-jdbc.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-share-session.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-shiro.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-solr.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-staticftl.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-threadlocal.main~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-threadlocal.test~1" target="1.8" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-websocket.test~1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

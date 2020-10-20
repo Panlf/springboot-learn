@@ -33,13 +33,86 @@
   <component name="ChangeListManager">
     <list default="true" id="2620f058-9470-49f5-9648-5de56b35f1e8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_annotation_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_boot_starter_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_core_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_extension_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_baomidou_mybatis_plus_generator_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_velocity_velocity_engine_core_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/springboot-learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/springboot-learn.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/classes/java/main/com/plf/learn/custom/event/SpringBootEventApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/classes/java/main/com/plf/learn/custom/event/configuration/ThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/classes/java/main/com/plf/learn/custom/event/controller/GlobalExceptionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/classes/java/main/com/plf/learn/custom/event/controller/MailEventController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/classes/java/main/com/plf/learn/custom/event/emailevents/EmailEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/classes/java/main/com/plf/learn/custom/event/emailevents/EmailEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-custom-event/build/classes/java/main/com/plf/learn/custom/event/emailevents/EmailEventPublish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/SpringBootJpaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/bean/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/bean/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/dto/StudentDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/service/StudentService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jpa/build/classes/java/main/com/plf/learn/jpa/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-jwt/src/main/java/com/plf/learn/jwt/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-jwt/src/main/java/com/plf/learn/jwt/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-log/src/main/java/com/plf/learn/log/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-log/src/main/java/com/plf/learn/log/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mail/build/classes/java/main/com/plf/learn/mail/SpringBootMailApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mail/build/classes/java/main/com/plf/learn/mail/controller/MailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mail/build/classes/java/main/com/plf/learn/mail/service/MailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/SpringbootMybatisPlusApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/controller/LogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/dto/LogDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/entity/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/mapper/LogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/service/LogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/service/impl/LogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/build/classes/java/main/com/plf/learn/mybatisplus/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/src/main/java/com/plf/learn/mybatisplus/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-mybatis-plus/src/main/java/com/plf/learn/mybatisplus/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/src/main/java/com/plf/learn/mybatisplus/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-mybatis-plus/src/main/java/com/plf/learn/mybatisplus/entity/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-mybatis-plus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learn-websocket/build/resources/main/templates/ws.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learn-websocket/build/resources/main/templates/ws.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,30 +186,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot-learn" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-learn" type="f1a62948:ProjectNode" />
-                <item name="springboot-learn-dataway" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -236,11 +285,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/springboot-learn-threadlocal/src/main/java/com/plf/learn/thread" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-learn-dataway/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-learn-mybatis-plus" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43728423" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -264,7 +313,14 @@
       <recent name="C:\Users\Panlf\IdeaProjects\springboot-learn\springboot-learn-sharding-jdbc\src\main\resources\sql" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootDatawayApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.JwtUtils">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -299,6 +355,20 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
+    </configuration>
+    <configuration name="JwtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.plf.learn.jwt.utils.JwtUtils" />
+      <module name="com.plf.learn.springboot-learn.springboot-learn-jwt.main~2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.plf.learn.jwt.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -339,44 +409,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="springboot-learn:springboot-learn-threadlocal [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/springboot-learn-threadlocal" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="springboot-learn:springboot-learn-threadlocal [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/springboot-learn-threadlocal" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -386,23 +418,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <method v="2" />
-    </configuration>
-    <configuration name="BuyTest.ticketTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="springboot-learn-distributed-lock__main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.plf.learn.lock.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.plf.learn.lock.test" />
-      <option name="MAIN_CLASS_NAME" value="com.plf.learn.lock.test.BuyTest" />
-      <option name="METHOD_NAME" value="ticketTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/springboot-learn-distributed-lock" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -448,42 +463,42 @@
       </method>
     </configuration>
     <configuration name="ElasticSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-elasticsearch.main" />
+      <module name="springboot-learn.springboot-learn-elasticsearch.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.elasticsearch.ElasticSearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-kafka.main" />
+      <module name="springboot-learn.springboot-learn-kafka.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.kafka.KafkaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-log.main" />
+      <module name="springboot-learn.springboot-learn-log.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.log.LogApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MongoDBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-mongodb.main" />
+      <module name="springboot-learn.springboot-learn-mongodb.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.mongodb.MongoDBApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RedisSentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-redis.main" />
+      <module name="springboot-learn.springboot-learn-redis.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.redis.RedisSentinelApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-security.main" />
+      <module name="springboot-learn.springboot-learn-security.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.security.SecurityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -503,76 +518,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootDocumentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-learn.springboot-learn-document.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.plf.learn.document.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.document.SpringBootDocumentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringBootDocumentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-document.main" />
+      <module name="springboot-learn.springboot-learn-document.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.document.SpringBootDocumentApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootElasticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-elastic-job.main" />
+      <module name="springboot-learn.springboot-learn-elastic-job.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.elastic.SpringBootElasticApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-learn-custom-event_main" />
+      <module name="springboot-learn.springboot-learn-custom-event.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.custom.event.SpringBootEventApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootJetcacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-jetcache.main" />
+      <module name="springboot-learn.springboot-learn-jetcache.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.jetcache.SpringBootJetcacheApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-learn-jpa_main" />
+      <module name="springboot-learn.springboot-learn-jpa.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.jpa.SpringBootJpaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootJwtApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-learn.springboot-learn-jwt.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.plf.learn.jwt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.jwt.SpringBootJwtApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringBootJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-jwt.main" />
+      <module name="springboot-learn.springboot-learn-jwt.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.jwt.SpringBootJwtApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootLockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-distributed-lock.main" />
+      <module name="springboot-learn.springboot-learn-distributed-lock.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.lock.SpringBootLockApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -586,62 +575,68 @@
       </method>
     </configuration>
     <configuration name="SpringBootMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-druid-monitor.main" />
+      <module name="springboot-learn.springboot-learn-druid-monitor.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.monitor.SpringBootMonitorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootMultidata" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-aop-multidata.main" />
+      <module name="springboot-learn.springboot-learn-aop-multidata.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.aop.multidata.SpringBootMultidata" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootMybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-learn-mybatis-plus_main" />
+    <configuration name="SpringBootMybatisPlusApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="com.plf.learn.springboot-learn.springboot-learn-mybatis-plus.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.plf.learn.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.mybatisplus.SpringBootMybatisPlusApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootShareSessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
-      <module name="springboot-learn-share-session_main" />
+    <configuration name="SpringBootMybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learn.springboot-learn-mybatis-plus.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.plf.learn.share.session.*" />
+          <option name="PATTERN" value="com.plf.learn.mybatisplus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.mybatisplus.SpringBootMybatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootShareSessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-learn.springboot-learn-share-session.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.share.session.SpringBootShareSessionApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-shiro.main" />
+      <module name="springboot-learn.springboot-learn-shiro.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.shiro.SpringBootShiroApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootStaticFtlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.plf.learn.springboot-learn-staticftl.main" />
+      <module name="springboot-learn.springboot-learn-staticftl.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.staticftl.SpringBootStaticFtlApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadLocalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-learn.springboot-learn-threadlocal.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.plf.learn.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.plf.learn.thread.ThreadLocalApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -681,44 +676,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [build]" />
-      <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [clean]" />
-      <item itemvalue="JUnit.BuyTest.ticketTest" />
-      <item itemvalue="Spring Boot.SpringBootShareSessionApplication" />
-      <item itemvalue="Spring Boot.SpringBootEventApplication" />
-      <item itemvalue="Spring Boot.SpringBootJpaApplication" />
-      <item itemvalue="Spring Boot.SpringBootMybatisPlusApplication" />
-      <item itemvalue="Spring Boot.SpringBootMultidata" />
-      <item itemvalue="Spring Boot.SpringBootLockApplication" />
-      <item itemvalue="Spring Boot.SpringBootDocumentApplication" />
-      <item itemvalue="Spring Boot.SpringBootMonitorApplication" />
-      <item itemvalue="Spring Boot.SpringBootElasticApplication" />
-      <item itemvalue="Spring Boot.ElasticSearchApplication" />
-      <item itemvalue="Spring Boot.SpringBootJetcacheApplication" />
-      <item itemvalue="Spring Boot.SpringBootJwtApplication" />
-      <item itemvalue="Spring Boot.KafkaApplication" />
-      <item itemvalue="Spring Boot.LogApplication" />
-      <item itemvalue="Spring Boot.MongoDBApplication" />
-      <item itemvalue="Spring Boot.RedisSentinelApplication" />
-      <item itemvalue="Spring Boot.SecurityApplication" />
-      <item itemvalue="Spring Boot.SpringBootShiroApplication" />
-      <item itemvalue="Spring Boot.SpringBootStaticFtlApplication" />
-      <item itemvalue="Spring Boot.SpringBootMailApplication" />
-      <item itemvalue="Spring Boot.SolrApplication" />
-      <item itemvalue="Spring Boot.WebSocketApplication" />
-      <item itemvalue="Spring Boot.ThreadLocalApplication (1)" />
-      <item itemvalue="Spring Boot.SpringBootDocumentApplication (1)" />
-      <item itemvalue="Spring Boot.SpringBootJwtApplication (1)" />
-      <item itemvalue="Spring Boot.SpringBootDatawayApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ThreadLocalApplication (1)" />
-        <item itemvalue="Spring Boot.SpringBootJwtApplication (1)" />
-        <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [build]" />
-        <item itemvalue="Gradle.springboot-learn:springboot-learn-threadlocal [clean]" />
-        <item itemvalue="Spring Boot.SpringBootDocumentApplication (1)" />
+        <item itemvalue="Application.JwtUtils" />
+        <item itemvalue="Spring Boot.SpringBootMybatisPlusApplication (1)" />
+        <item itemvalue="Spring Boot.SpringBootMybatisPlusApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -795,7 +757,15 @@
       <workItem from="1591329427158" duration="1151000" />
       <workItem from="1591330648565" duration="5643000" />
       <workItem from="1591370633389" duration="3555000" />
-      <workItem from="1591577134294" duration="4155000" />
+      <workItem from="1591577134294" duration="5046000" />
+      <workItem from="1600266312677" duration="3065000" />
+      <workItem from="1600269456066" duration="1178000" />
+      <workItem from="1600270718876" duration="235000" />
+      <workItem from="1600270996263" duration="159000" />
+      <workItem from="1600271214239" duration="182000" />
+      <workItem from="1600271497210" duration="1862000" />
+      <workItem from="1600345148401" duration="12000" />
+      <workItem from="1603200953616" duration="1725000" />
     </task>
     <servers />
   </component>
@@ -815,58 +785,58 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="565" y="226" key="#Notifications" timestamp="1591577143547">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1600270844161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="565" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1591577143547" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1591579694990">
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1600270844161" />
+    <state x="137" y="19" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600269633402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591579694990" />
-    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1591330557301">
+    <state x="137" y="19" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600269633402" />
+    <state x="481" y="105" key="FileChooserDialogImpl" timestamp="1600271231650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591330557301" />
-    <state width="673" height="179" key="GridCell.Tab.0.bottom" timestamp="1591416511140">
+    <state x="481" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600271231650" />
+    <state width="1306" height="153" key="GridCell.Tab.0.bottom" timestamp="1603201562554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state width="673" height="179" key="GridCell.Tab.0.center" timestamp="1591416511140">
+    <state width="1306" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603201562554" />
+    <state width="1306" height="153" key="GridCell.Tab.0.center" timestamp="1603201562554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state width="673" height="179" key="GridCell.Tab.0.left" timestamp="1591416511140">
+    <state width="1306" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603201562554" />
+    <state width="1306" height="153" key="GridCell.Tab.0.left" timestamp="1603201562553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state width="673" height="179" key="GridCell.Tab.0.right" timestamp="1591416511140">
+    <state width="1306" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603201562553" />
+    <state width="1306" height="153" key="GridCell.Tab.0.right" timestamp="1603201562554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state width="673" height="179" key="GridCell.Tab.1.bottom" timestamp="1591416511140">
+    <state width="1306" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603201562554" />
+    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1600345076353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state width="673" height="179" key="GridCell.Tab.1.center" timestamp="1591416511140">
+    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600345076353" />
+    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1600345076352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state width="673" height="179" key="GridCell.Tab.1.left" timestamp="1591416511140">
+    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600345076352" />
+    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1600345076352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state width="673" height="179" key="GridCell.Tab.1.right" timestamp="1591416511140">
+    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600345076352" />
+    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1600345076352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="673" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591416511140" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1591577211201">
+    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600345076352" />
+    <state x="344" y="67" width="791" height="593" key="NewModule_or_Project.wizard" timestamp="1600270582568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591577211201" />
-    <state x="24" y="27" key="new project wizard" timestamp="1591577889640">
+    <state x="344" y="67" width="791" height="593" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1600270582568" />
+    <state x="179" y="0" width="1187" height="711" key="SettingsEditor" timestamp="1600271519986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="24" y="27" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1591577889640" />
+    <state x="179" y="0" width="1187" height="711" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600271519986" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,105 +855,5 @@
   </component>
   <component name="gradleExecuteTaskHistory">
     <option value="" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Gradle : com.plf.learn : springboot-learn-custom-event-0.0.1.war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web Gradle : springboot-learn-distributed-lock-0.0.1.war|springboot-learn-distributed-lock_main|springboot-learn-distributed-lock</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.45219347" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

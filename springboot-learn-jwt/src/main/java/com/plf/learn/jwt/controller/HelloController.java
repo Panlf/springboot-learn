@@ -32,7 +32,7 @@ public class HelloController {
     public RedisUtils redisUtils;
 
     @GetMapping("/hello")
-    public Object hello(HttpServletRequest request, HttpServletResponse response){
+    public ResponseData hello(HttpServletRequest request, HttpServletResponse response){
         //获取Token
         String token = request.getHeader("Authorization");
         //验证Token
@@ -74,7 +74,18 @@ public class HelloController {
                 msg = "密码错误";
             }else{
                 // 因为JWT不能存储敏感信息，所以这里使用Redis存储敏感数据，同时设置过期时间
-                //Redis这里也可防多登陆等进一步功能
+                /**
+                 * 防多登录
+                 *   Redis中查询登录信息即可
+                 */
+
+                /**
+                 *  RefreshToken
+                 *     1、将登录信息放入到Redis中，并把过期时间设为JWT Token的2倍
+                 *     2、如果JWT Token若没有过期，则验证通过，如果过期了，还需要在Redis中查询是否存在登录信息
+                 *     3、Redis中存在登录信息存在就重新刷新JWT token
+                 */
+
                 redisUtils.insertStr(person.getId()+"-"+person.getUsername(),person.getPassword(),1*60);
                 msg = "登陆成功";
                 //用户标识ID

@@ -20,7 +20,6 @@ public class LogController {
 	
 	@RequestMapping("/add")
 	public String addLog(Log log){
-		log.setCreatetime(new Date());
 		logService.insertLog(log);
 		return "success";
 	} 

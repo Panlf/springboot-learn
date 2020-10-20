@@ -6,7 +6,7 @@ allprojects {
     apply plugin: 'idea'
 
     //指定项目版本号和group
-    version = '0.1.0'
+    version = '0.1.1'
     group = 'com.plf.learn'
 
     idea.module.iml {
