@@ -1,8 +1,0 @@
-com/plf/learn/mail/config/ThreadPoolTaskConfig.java
- com.plf.learn.mail.config.ThreadPoolTaskConfig
-com/plf/learn/mail/controller/MailController.java
- com.plf.learn.mail.controller.MailController
-com/plf/learn/mail/service/MailService.java
- com.plf.learn.mail.service.MailService
-com/plf/learn/mail/SpringBootMailApplication.java
- com.plf.learn.mail.SpringBootMailApplication

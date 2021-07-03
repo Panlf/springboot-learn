@@ -1,4 +1,0 @@
-server:
-  port: 8026
-  servlet:
-    context-path: /thread

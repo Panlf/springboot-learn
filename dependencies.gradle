@@ -9,7 +9,7 @@ ext{
                     "org.springframework.boot:spring-boot-starter-test:${versions.springBootVersion}"
             ],
             lombok:[
-                    "org.projectlombok:lombok:1.16.20"
+                    "org.projectlombok:lombok:1.18.16"
             ],
             mysql   :[
                     "mysql:mysql-connector-java:8.0.16"

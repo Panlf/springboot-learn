@@ -1,4 +1,0 @@
-server:
-  port: 8100
-  servlet:
-    context-path: /document
