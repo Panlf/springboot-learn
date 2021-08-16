@@ -120,6 +120,10 @@ ext{
             dataway:[
                     "net.hasor:hasor-dataway:4.1.8",
                     "net.hasor:hasor-spring:4.1.8"
+            ],
+            caffeine:[
+                    "org.springframework.boot:spring-boot-starter-cache:${versions.springBootVersion}",
+                    "com.github.ben-manes.caffeine:caffeine:2.8.6"
             ]
     ]
 }

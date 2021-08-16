@@ -24,4 +24,5 @@ include 'springboot-learn-solr'
 include 'springboot-learn-threadlocal'
 include 'springboot-learn-websocket'
 include 'springboot-learn-dataway'
+include 'springboot-learn-caffeine'
 
