@@ -48,7 +48,7 @@ public class ApiRateLimiterAspect {
         Method targetMethod = methodSignature.getMethod();
 
         if (targetMethod.isAnnotationPresent(ApiRateLimiter.class)) {
-            // 获取目标方法的@LxRateLimit注解
+            // 获取目标方法的@ApiRateLimiter注解
             ApiRateLimiter rateLimit = targetMethod.getAnnotation(ApiRateLimiter.class);
 
             if(RATE_LIMITER_CACHE.get(signature.getName())==null){

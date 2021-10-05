@@ -11,6 +11,7 @@ import com.plf.learn.document.utils.CloseUtils;
 import com.plf.learn.document.utils.interfaces.OperateDocument;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 /**
  *  读写Txt文档
@@ -22,6 +23,10 @@ public class OperateTxt implements OperateDocument {
 
     @Override
     public String readDocument(String path) {
+        System.out.println("正在使用TXT处理器在处理");
+        if(StringUtils.isEmpty(path)){
+            return "";
+        }
 
         String content = "";
 

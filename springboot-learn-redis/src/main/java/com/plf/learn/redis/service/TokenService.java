@@ -17,7 +17,6 @@ public interface TokenService {
     /**
      * 检验Token
      * @param request
-     * @param username 用户名
      * @return
      * @throws Exception
      */

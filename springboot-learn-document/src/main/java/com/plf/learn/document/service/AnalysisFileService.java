@@ -2,9 +2,15 @@ package com.plf.learn.document.service;
 
 import java.util.concurrent.TimeUnit;
 
+import com.plf.learn.document.container.DocumentContext;
+import com.plf.learn.document.utils.interfaces.OperateDocument;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 /**
  * 解析文档，将文档数据保存到数据库
