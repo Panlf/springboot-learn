@@ -50,7 +50,7 @@ SpringBoot整合ElasticSearch，实现基本的存储和读取的功能
 
 Spring-Data-Jpa 功能完善，但是还是有缺陷，比如update不支持如果NULL则不更新，还有动态条件写起来比较复杂，个人感觉Jpa适合单表操作，很考验数据库设计水平。
 
-### 5、SpringBoot整合JWT
+### SpringBoot整合JWT
 
 Jwt用于信息访问授权功能，本案例使用Jwt生成授权token，访问特定方法进行token验证，并使用Redis存储敏感数据。
 
@@ -97,7 +97,6 @@ SpringBoot整合Spring Session，并将Session数据保存到Redis中，实现�
 ### SpringBoot整合Solr
 
 SpringBoot整合Solr，实现基本的数据存储和读取功能。
-
 
 ### SpringBoot整合MongoDB、ActiveMQ、Freemarker实现静态化页面
 
