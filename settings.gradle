@@ -26,4 +26,5 @@ include 'springboot-learn-websocket'
 include 'springboot-learn-dataway'
 include 'springboot-learn-caffeine'
 include 'springboot-learn-api-limiter'
+include 'springboot-learn-neo4j'
 
