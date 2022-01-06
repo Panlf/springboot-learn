@@ -1,5 +1,6 @@
 package com.plf.learn.jwt.utils;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 import javax.crypto.SecretKey;
@@ -37,9 +38,8 @@ public class JwtUtils {
     public static SecretKey generalKey() {
         try {
             //byte[] encodeKey = Base64.decodeBase64(JWT_SECRET);
-            byte[] encodeKey = JWT_SECRET.getBytes("UTF-8");
-            SecretKey key = new SecretKeySpec(encodeKey, 0, encodeKey.length, "AES");
-            return key;
+            byte[] encodeKey = JWT_SECRET.getBytes(StandardCharsets.UTF_8);
+            return new SecretKeySpec(encodeKey, 0, encodeKey.length, "AES");
         } catch (Exception e) {
             return null;
         }

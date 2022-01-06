@@ -8,7 +8,7 @@
         user.dir：用户的当前工作目录，即当前程序所对应的工作路径。
         其它通过命令行指定的系统属性，如“java –DdiskStore.path=D:\\abc ……”。
     -->
-    <diskStore path="E:\cache\shiro"/>
+    <diskStore path="D:\TempData\cache\shiro"/>
 
     <!--
 

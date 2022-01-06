@@ -2,7 +2,7 @@ package com.plf.learn.shiro.config;
 
 import com.plf.learn.shiro.realm.MyShiroRealm;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.shiro.cache.ehcache.EhCacheManager;
+//import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -16,12 +16,14 @@ import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.apache.shiro.web.servlet.SimpleCookie;
+import org.crazycake.shiro.RedisCacheManager;
+import org.crazycake.shiro.RedisManager;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.config.MethodInvokingFactoryBean;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.DependsOn;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
 /**
  * @author Panlf
@@ -32,13 +34,13 @@ import org.springframework.context.annotation.DependsOn;
 public class ShiroConfig {
 
     @Bean
-    public DefaultWebSecurityManager  securityManager(CookieRememberMeManager rememberMeManager, MyShiroRealm myShiroRealm,EhCacheManager ehCacheManager) {
+    public DefaultWebSecurityManager  securityManager(CookieRememberMeManager rememberMeManager, MyShiroRealm myShiroRealm) {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(myShiroRealm);
         //注入Cookie(记住我)管理器(cookieRememberMeManager)
         log.info("cookieRememberMeManager ---------- {}", rememberMeManager);
         securityManager.setRememberMeManager(rememberMeManager);
-        securityManager.setCacheManager(ehCacheManager);
+        securityManager.setCacheManager(cacheManager());
         return securityManager;
     }
 
@@ -187,16 +189,33 @@ public class ShiroConfig {
         return authorizationAttributeSourceAdvisor;
     }
 
+
+    public RedisCacheManager cacheManager() {
+        RedisCacheManager redisCacheManager = new RedisCacheManager();
+        redisCacheManager.setRedisManager(redisManager());
+        return redisCacheManager;
+    }
+
+    public RedisManager redisManager() {
+        //192.168.164.130
+        RedisManager redisManager = new RedisManager();
+        JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+        JedisPool jedisPool = new JedisPool(jedisPoolConfig, "192.168.164.130", 6379, 0,"12345678",0);
+        redisManager.setJedisPool(jedisPool);
+        return redisManager;
+    }
+
     /**
+     * EhCache
      * shiro缓存管理器;
      * 需要添加到securityManager中
      * @return
      */
-    @Bean
+    /* @Bean
     public EhCacheManager ehCacheManager(){
         EhCacheManager cacheManager = new EhCacheManager();
         cacheManager.setCacheManagerConfigFile("classpath:ehcache.xml");
         return cacheManager;
-    }
+    }*/
 
 }

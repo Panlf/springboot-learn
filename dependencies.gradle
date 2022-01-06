@@ -54,7 +54,9 @@ ext{
             shiro:[
                     "org.apache.shiro:shiro-core:1.4.1",
                     "org.apache.shiro:shiro-spring:1.4.1",
-                    "org.apache.shiro:shiro-ehcache:1.4.1"
+                    //"org.apache.shiro:shiro-ehcache:1.4.1"
+                    "org.crazycake:shiro-redis:3.2.3"
+
             ],
             thymeleaf:[
                     "org.springframework.boot:spring-boot-starter-thymeleaf:${versions.springBootVersion}"
